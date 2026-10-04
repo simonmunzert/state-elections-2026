@@ -1,0 +1,36 @@
+id,category,label_de,probability,approximate,land
+largest_party_afd,largest_party,AfD stärkste Kraft,100,NA,st
+above_hurdle_spd,above_hurdle,SPD über 5%-Hürde,98,NA,st
+maj_ohne_afd,majority_excluding,Parlamentsmehrheit ohne AfD,78,NA,st
+maj_ohne_afd_bsw,majority_excluding,Parlamentsmehrheit ohne AfD und BSW,70,NA,st
+above_hurdle_gru,above_hurdle,Grüne über 5%-Hürde,67,NA,st
+abs_maj_afd,coalition,Absolute Mehrheit AfD,22,NA,st
+above_hurdle_bsw,above_hurdle,BSW über 5%-Hürde,19,NA,st
+coal_afd_bsw,coalition,Parlamentsmehrheit AfD und BSW,9,NA,st
+above_hurdle_fdp,above_hurdle,FDP über 5%-Hürde,2,NA,st
+coal_cdu_spd_gru,coalition,"Parlamentsmehrheit CDU, SPD und Grüne",1,NA,st
+coal_cdu_spd_gru_fdp,coalition,"Parlamentsmehrheit CDU, SPD, Grüne und FDP",0,TRUE,st
+coal_spd_gru_lin,coalition,"Parlamentsmehrheit SPD, Grüne und Linke",89,NA,be
+coal_cdu_spd_gru,coalition,"Parlamentsmehrheit CDU, SPD und Grüne",86,NA,be
+coal_spd_gru_lin_lead_lin,coalition,"Parlamentsmehrheit SPD, Grüne und Linke (unter Führung der Linken)",73,NA,be
+largest_party_lin,largest_party,Linke stärkste Kraft,44,NA,be
+largest_party_cdu,largest_party,CDU stärkste Kraft,34,NA,be
+above_hurdle_bsw,above_hurdle,BSW über 5%-Hürde,27,NA,be
+largest_party_afd,largest_party,AfD stärkste Kraft,16,NA,be
+coal_spd_gru_lin_lead_gru,coalition,"Parlamentsmehrheit SPD, Grüne und Linke (unter Führung der Grünen)",14,NA,be
+largest_party_gru,largest_party,Grüne stärkste Kraft,6,NA,be
+coal_cdu_gru,coalition,Parlamentsmehrheit CDU und Grüne,2,NA,be
+coal_gru_lin,coalition,Parlamentsmehrheit Grüne und Linke,2,NA,be
+coal_spd_gru_lin_lead_spd,coalition,"Parlamentsmehrheit SPD, Grüne und Linke (unter Führung der SPD)",2,NA,be
+maj_ohne_afd,majority_excluding,Parlamentsmehrheit ohne AfD,98,NA,mv
+maj_ohne_afd_bsw,majority_excluding,Parlamentsmehrheit ohne AfD und BSW,97,NA,mv
+largest_party_afd,largest_party,AfD stärkste Kraft,65,NA,mv
+above_hurdle_gru,above_hurdle,Grüne über 5%-Hürde,52,NA,mv
+coal_spd_gru_lin,coalition,"Parlamentsmehrheit SPD, Grüne und Linke",40,NA,mv
+coal_spd_lin,coalition,Parlamentsmehrheit SPD und Linke,36,NA,mv
+largest_party_spd,largest_party,SPD stärkste Kraft,35,NA,mv
+coal_cdu_spd_gru,coalition,"Parlamentsmehrheit CDU, SPD und Grüne",24,NA,mv
+above_hurdle_bsw,above_hurdle,BSW über 5%-Hürde,8,NA,mv
+coal_lin_bsw_spd,coalition,"Parlamentsmehrheit Linke, BSW und SPD",5,NA,mv
+abs_maj_afd,coalition,Absolute Mehrheit AfD,2,NA,mv
+coal_gru_spd,coalition,Parlamentsmehrheit Grüne und SPD,2,NA,mv

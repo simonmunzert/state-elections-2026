@@ -1,0 +1,4 @@
+# large re-downloadable inputs (> 50 MB); see README "Data sources" for URLs
+data/input/gerda/state_unharm.csv
+data/input/gerda/state_harm_21.csv
+.DS_Store

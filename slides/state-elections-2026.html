@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Is the centre cracking? What recent elections reveal about Germany’s changing party landscapeFour things open election data tell us about the 2026 state elections</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Simon Munzert · Data Science Lab · Hertie School, Berlin" />
+    <meta name="date" content="2026-10-08" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+    <script src="https://tikzjax.com/v1/tikzjax.js"></script>
+    <link rel="stylesheet" href="simons-touch.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# <span class="event">Is the centre cracking? What recent elections reveal about Germany’s changing party landscape</span>Four things open election data tell us<br>about the 2026 state elections
+]
+.author[
+### Simon Munzert <span style="color:#ff0000;">·</span> Data Science Lab <span style="color:#ff0000;">·</span> Hertie School, Berlin
+]
+.date[
+### 8 October 2026
+]
+
+---
+
+
+&lt;style type="text/css"&gt;
+@media print {
+  .has-continuation { display: block !important; }
+}
+.title-slide h1 .event { display: block; font-size: 45%; font-weight: 400; color: #bbbbbb; margin-bottom: 14px; line-height: 1.3; }
+.title-slide h2:empty { display: none; }
+.small { font-size: 80%; line-height: 1.35; }
+.tiny { font-size: 65%; color: #777; }
+.src { position: absolute; left: 2em; right: 2em; bottom: 12px; font-size: 60%; color: #888; text-align: left; line-height: 1.3; }
+.src a { color: #888; text-decoration: underline; text-decoration-style: dotted; }
+.section-no { display: block; font-size: 4.5rem; font-weight: 700; color: #ff0000; line-height: 1; margin-top: -40px; margin-bottom: 110px; }
+.fig { float: left; width: 70%; margin-top: -8px; }
+.fig img { width: 100%; height: auto; }
+:root { --ta-font: 'Nothing You Could Do', cursive; }   /* take-aways heading font: Caveat | Kalam | Patrick Hand | Architects Daughter | Handlee | Covered By Your Grace */
+.notes { position: absolute; right: 0.8em; width: 25%; top: 60%; margin: 0; }
+.notes .ta { font-family: var(--ta-font); font-size: 2rem; font-weight: 600; color: #000; margin: 0 0 4px 0; line-height: 1; }
+.notes ul { margin-top: 0; }
+.notes li { font-size: 78%; line-height: 1.35; margin-bottom: 10px; }
+.jl { float: left; width: 58%; }
+.jr { float: right; width: 40%; }
+.clips { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 10px; margin-top: 4px; }
+.clip { background: #f4f4f4; border-left: 5px solid #cc0065; padding: 6px 9px; font-size: 68%; line-height: 1.25; font-weight: 500; }
+.clip a { color: #000; }
+.clip .outlet { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; font-size: 85%; color: #000; }
+.clip .meta { color: #777; font-weight: 400; font-size: 90%; }
+.c1 { border-left-color: #cc0065; } .c2 { border-left-color: #EB811B; } .c3 { border-left-color: #009EE0; } .c4 { border-left-color: #46962b; }
+.c5 { border-left-color: #000000; } .c6 { border-left-color: #7B2A7A; } .c7 { border-left-color: #E3000F; } .c8 { border-left-color: #b8860b; }
+.people3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px 6px; margin-top: 4px; }
+.person { text-align: center; font-size: 70%; line-height: 1.2; }
+.person img { width: 78px; height: 78px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto 4px auto; border: 3px solid #cc0065; background: #fff; }
+.person img.logoimg { object-fit: contain; padding: 6px; }
+.person a { color: #cc0065; font-size: 85%; display: block; }
+.panels { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px 22px; margin-top: 4px; }
+.panel { text-align: center; font-size: 85%; }
+.panel img { width: 100%; height: 170px; object-fit: cover; object-position: top; border: 1px solid #ddd; display: block; margin-bottom: 4px; }
+.panel a { color: #000; font-weight: 700; }
+.panel span { color: #777; font-size: 85%; }
+&lt;/style&gt;
+
+
+
+&lt;link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do:wght@400;700&amp;family=Caveat:wght@500;600&amp;family=Kalam:wght@400;700&amp;family=Patrick+Hand&amp;family=Architects+Daughter&amp;family=Handlee&amp;family=Covered+By+Your+Grace&amp;display=swap" rel="stylesheet"&gt;
+
+&lt;style&gt;
+ul { list-style: none; padding-left: 0; margin-top: 1.25rem; }
+ul ul, ul ol { margin-top: 0; }
+ul li { position: relative; padding-left: 30px; }
+ul li::before {
+  content: ""; position: absolute; left: 0; top: .25em; width: 20px; height: 20px;
+  background: url('hand-bullet.png') no-repeat center / contain;
+}
+&lt;/style&gt;
+
+
+# 2026: five state elections, five different outcomes
+
+.fig[&lt;img src="pics/analysis/01_results_2026.png"&gt;]
+
+.notes[
+&lt;div class="ta"&gt;Take-aways&lt;/div&gt;
+
+- Five elections, &lt;b style="color:#cc0065"&gt;four different winners&lt;/b&gt;: Greens, CDU, AfD, Linke, AfD
+- &lt;b style="color:#cc0065"&gt;The CDU drops out of a Landtag&lt;/b&gt; (MV) for the first time in history
+- &lt;b style="color:#cc0065"&gt;FDP out everywhere&lt;/b&gt;, BSW in only in Saxony-Anhalt
+]
+
+&lt;div class="src"&gt;Data: &lt;a href="https://www.wahlrecht.de/ergebnisse/"&gt;wahlrecht.de&lt;/a&gt;, own compilation. Berlin and Mecklenburg-Vorpommern preliminary results.&lt;/div&gt;
+
+
+---
+class: inverse, center, middle
+
+&lt;span class="section-no"&gt;1&lt;/span&gt;
+
+# The centre is not cracking.
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px style="width:1000px; margin:auto;"/&gt;&lt;/html&gt;
+
+
+---
+# CDU/CSU and SPD have been losing ground since the 1980s
+
+.fig[&lt;img src="pics/analysis/01_centre_share.png"&gt;]
+
+.notes[
+&lt;div class="ta"&gt;Take-aways&lt;/div&gt;
+
+- Combined share: West &lt;b style="color:#cc0065"&gt;89%&lt;/b&gt; in the 1970s → &lt;b style="color:#cc0065"&gt;54%&lt;/b&gt; in the 2020s
+- East: &lt;b style="color:#cc0065"&gt;68%&lt;/b&gt; in the 1990s → &lt;b style="color:#cc0065"&gt;39%&lt;/b&gt; today
+- 1955–2015: the largest party at &lt;b style="color:#cc0065"&gt;all 193&lt;/b&gt; state elections was CDU/CSU or SPD. Since 2016: &lt;b style="color:#cc0065"&gt;8 of 38&lt;/b&gt; went elsewhere
+]
+
+&lt;div class="src"&gt;Data: &lt;a href="https://www.wahlrecht.de/ergebnisse/"&gt;wahlrecht.de&lt;/a&gt;, own compilation.&lt;/div&gt;
+
+
+---
+# State parliaments are more fragmented than ever
+
+.fig[&lt;img src="pics/analysis/01_fragmentation_enp.png"&gt;]
+
+.notes[
+&lt;div class="ta"&gt;Take-aways&lt;/div&gt;
+
+- Around &lt;b style="color:#cc0065"&gt;2.2&lt;/b&gt; in the West of the 1970s
+- &lt;b style="color:#cc0065"&gt;3.5 to 4.7&lt;/b&gt; in the parliaments elected in 2026
+- But: &lt;b style="color:#cc0065"&gt;shrinking as AfD becomes dominant&lt;/b&gt; in the East, FDP drops out
+]
+
+&lt;div class="src"&gt;Data: &lt;a href="https://www.wahlrecht.de/ergebnisse/"&gt;wahlrecht.de&lt;/a&gt;, own compilation.&lt;/div&gt;
+
+
+---
+class: inverse, center, middle
+
+&lt;span class="section-no"&gt;2&lt;/span&gt;
+
+# The far right is not a new kid on the block.
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px style="width:1000px; margin:auto;"/&gt;&lt;/html&gt;
+
+
+---
+# The far right in state parliaments is not new ...
+
+.fig[&lt;img src="pics/analysis/02_far_right_timeline.png"&gt;]
+
+.notes[
+&lt;div class="ta"&gt;Take-aways&lt;/div&gt;
+
+- NPD in &lt;b style="color:#cc0065"&gt;seven&lt;/b&gt; Landtage at once in 1968–70
+- DVU, REP and Schill in the 1990s and 2000s, mostly for a single term
+- The AfD since 2014: &lt;b style="color:#cc0065"&gt;all 16&lt;/b&gt; states
+]
+
+&lt;div class="src"&gt;Data: &lt;a href="https://www.wahlrecht.de/ergebnisse/"&gt;wahlrecht.de&lt;/a&gt;, own compilation. Bremen: DVU/BIW seats via the separate Bremerhaven threshold.&lt;/div&gt;
+
+
+---
+# ... but the AfD is a different animal
+
+.fig[&lt;img src="pics/analysis/02_far_right_strength.png"&gt;]
+
+.notes[
+&lt;div class="ta"&gt;Take-aways&lt;/div&gt;
+
+- Before the AfD: &lt;b style="color:#cc0065"&gt;34&lt;/b&gt; entries, average &lt;b style="color:#cc0065"&gt;6.7%&lt;/b&gt;, best 19.4% (Schill, Hamburg 2001), only &lt;b style="color:#cc0065"&gt;1 in 3&lt;/b&gt; re-elected
+- The AfD: &lt;b style="color:#cc0065"&gt;41&lt;/b&gt; entries, average &lt;b style="color:#cc0065"&gt;15%&lt;/b&gt;, &lt;b style="color:#cc0065"&gt;9 in 10&lt;/b&gt; re-elected, always stronger
+- 2026: &lt;b style="color:#cc0065"&gt;47%&lt;/b&gt; of seats in Saxony-Anhalt, 45% in MV
+]
+
+&lt;div class="src"&gt;Data: &lt;a href="https://www.wahlrecht.de/ergebnisse/"&gt;wahlrecht.de&lt;/a&gt;, own compilation.&lt;/div&gt;
+
+
+---
+# The recent AfD surge is smaller than it looks
+
+.fig[&lt;img src="pics/analysis/02_afd_vs_btw25.png"&gt;]
+
+.notes[
+&lt;div class="ta"&gt;Take-aways&lt;/div&gt;
+
+- Against the previous state election: &lt;b style="color:#cc0065"&gt;+23&lt;/b&gt;, +21.5 and +7 points
+- Against the February 2025 federal result in the same state: &lt;b style="color:#cc0065"&gt;+6.7&lt;/b&gt;, +3.2 and +1.1
+]
+
+&lt;div class="src"&gt;Data: &lt;a href="https://www.wahlrecht.de/ergebnisse/"&gt;wahlrecht.de&lt;/a&gt;, &lt;a href="https://www.bundeswahlleiterin.de/bundestagswahlen/2025/ergebnisse.html"&gt;Bundeswahlleiterin&lt;/a&gt;, own compilation. Inspired by: &lt;a href="https://bsky.app/profile/nilssteiner.bsky.social/post/3mvy5n3azt22p"&gt;Nils Steiner&lt;/a&gt;.&lt;/div&gt;
+
+
+---
+class: inverse, center, middle
+
+&lt;span class="section-no"&gt;3&lt;/span&gt;
+
+# Turnout is back.
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px style="width:1000px; margin:auto;"/&gt;&lt;/html&gt;
+
+
+---
+# Turnout is back. The East now votes more than the West.
+
+.fig[&lt;img src="pics/analysis/03_turnout.png"&gt;]
+
+.notes[
+&lt;div class="ta"&gt;Take-aways&lt;/div&gt;
+
+- East German turnout fell to the low 50s in the 2000s and 2010s
+- 2026: &lt;b style="color:#cc0065"&gt;78%&lt;/b&gt; in MV and Saxony-Anhalt, 74% in Berlin
+- Saxony-Anhalt: &lt;b style="color:#cc0065"&gt;+17.5&lt;/b&gt; points, the largest increase at any state election since 1990
+]
+
+&lt;div class="src"&gt;Data: &lt;a href="https://www.wahlrecht.de/ergebnisse/"&gt;wahlrecht.de&lt;/a&gt;, own compilation. Inspired by: &lt;a href="https://juliuskoelzer.de/saxony-anhalt-2026-en/"&gt;Julius Kölzer&lt;/a&gt;.&lt;/div&gt;
+
+
+---
+# ... and the new voters went mostly one way
+
+.fig[&lt;img src="pics/analysis/03_nonvoter_flows.png"&gt;]
+
+.notes[
+&lt;div class="ta"&gt;Take-aways&lt;/div&gt;
+
+- S-A: AfD &lt;b style="color:#cc0065"&gt;+170k&lt;/b&gt; from former non-voters, all other parties together +96k
+- Berlin is the exception: the Linke mobilised more (+75k) than the AfD (+61k)
+- Centre and left mostly &lt;b style="color:#cc0065"&gt;trade votes among themselves&lt;/b&gt;; the AfD also takes from the CDU (−83k, −60k, −32k)
+]
+
+&lt;div class="src"&gt;Data: &lt;a href="https://www.kas.de/de/monitor-wahl-und-sozialforschung"&gt;ARD / infratest dimap vote-flow analysis, via KAS Wahlanalysen&lt;/a&gt;, own compilation. Inspired by: &lt;a href="https://bsky.app/profile/juliusk.bsky.social/post/3mvz7smwnb22e"&gt;Julius Kölzer&lt;/a&gt;.&lt;/div&gt;
+
+
+---
+# ... and they are probably not going away any time soon
+
+.fig[&lt;img src="pics/analysis/03_turnout_persistence.png"&gt;]
+
+.notes[
+&lt;div class="ta"&gt;Take-aways&lt;/div&gt;
+
+- 226 state-election pairs since 1946: only about &lt;b style="color:#cc0065"&gt;one sixth&lt;/b&gt; of a turnout surge is given back next time
+- Every East German surge since 2014 was followed by a &lt;b style="color:#cc0065"&gt;further rise&lt;/b&gt;
+- Voting is habit-forming: &lt;b style="color:#cc0065"&gt;+5 to +15&lt;/b&gt; points next time, strongest for first-time voters
+]
+
+&lt;div class="src"&gt;Data: &lt;a href="https://www.wahlrecht.de/ergebnisse/"&gt;wahlrecht.de&lt;/a&gt;, own compilation. Literature: &lt;a href="https://onlinelibrary.wiley.com/doi/10.1111/ajps.12210"&gt;Coppock &amp; Green 2016&lt;/a&gt;, &lt;a href="https://www.aeaweb.org/articles?id=10.1257/app.20140533"&gt;Fujiwara, Meng &amp; Vogl 2016&lt;/a&gt;, &lt;a href="https://link.springer.com/chapter/10.1007/978-3-658-42694-1_4"&gt;Schäfer 2023&lt;/a&gt;.&lt;/div&gt;
+
+
+---
+class: inverse, center, middle
+
+&lt;span class="section-no"&gt;4&lt;/span&gt;
+
+# Age and geography are defining cleavages.
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px style="width:1000px; margin:auto;"/&gt;&lt;/html&gt;
+
+
+---
+# Support for the centre is dying out
+
+.fig[&lt;img src="pics/analysis/04_age.png"&gt;]
+
+.notes[
+&lt;div class="ta"&gt;Take-aways&lt;/div&gt;
+
+- CDU under 25: &lt;b style="color:#cc0065"&gt;5%&lt;/b&gt; in Saxony-Anhalt, &lt;b style="color:#cc0065"&gt;1%&lt;/b&gt; in MV; the SPD's best group is the over-70s
+- The AfD peaks at &lt;b style="color:#cc0065"&gt;35–59&lt;/b&gt; everywhere and is weakest among the oldest
+- Berlin under 35: &lt;b style="color:#cc0065"&gt;43–49%&lt;/b&gt; Die Linke
+]
+
+&lt;div class="src"&gt;Data: &lt;a href="https://www.kas.de/de/monitor-wahl-und-sozialforschung"&gt;infratest dimap exit polls, via KAS Wahlanalysen&lt;/a&gt;, own compilation. Inspired by: &lt;a href="https://www.zeit.de/politik/deutschland/2026-09/wahlverhalten-junge-menschen-ostdeutschland-volksparteien-cdu-spd"&gt;Thorsten Faas&lt;/a&gt;, &lt;a href="https://bsky.app/profile/nilssteiner.bsky.social"&gt;Nils Steiner&lt;/a&gt;.&lt;/div&gt;
+
+
+---
+# The AfD's steep education gradient
+
+.fig[&lt;img src="pics/analysis/04_education.png"&gt;]
+
+.notes[
+&lt;div class="ta"&gt;Take-aways&lt;/div&gt;
+
+- AfD by education (low / medium / high): &lt;b style="color:#cc0065"&gt;57 / 52 / 30&lt;/b&gt; in Saxony-Anhalt, 46 / 47 / 25 in MV, 26 / 28 / 10 in Berlin
+- The Linke and Greens run the other way
+]
+
+&lt;div class="src"&gt;Data: &lt;a href="https://www.kas.de/de/monitor-wahl-und-sozialforschung"&gt;infratest dimap exit polls, via KAS Wahlanalysen&lt;/a&gt;, own compilation. Inspired by: &lt;a href="https://bsky.app/profile/tabouchadi.bsky.social/post/3mvy3gz4vfc2w"&gt;Tarik Abou-Chadi&lt;/a&gt;.&lt;/div&gt;
+
+
+---
+# Village vs. city: the AfD vote falls with municipality size
+
+.fig[&lt;img src="pics/analysis/04_urban_rural_afd_by_size.png"&gt;]
+
+.notes[
+&lt;div class="ta"&gt;Take-aways&lt;/div&gt;
+
+- Village-to-city gap: &lt;b style="color:#cc0065"&gt;16–24 points&lt;/b&gt; in the East, &lt;b style="color:#cc0065"&gt;7–10&lt;/b&gt; in the West
+- Saxony-Anhalt: 51% in villages under 2,000, 31% in the big cities
+- Only the AfD has this gradient; Greens and Linke are its mirror image
+]
+
+&lt;div class="src"&gt;Data: &lt;a href="https://www.german-elections.com/"&gt;GERDA&lt;/a&gt;, &lt;a href="https://wahlen.mvnet.de/wahl/land"&gt;Landeswahlleitung MV&lt;/a&gt;, own compilation. Inspired by: &lt;a href="https://juliuskoelzer.de/saxony-anhalt-2026-en/"&gt;Julius Kölzer&lt;/a&gt;.&lt;/div&gt;
+
+
+---
+# Berlin: “The Ring is the new Wall”
+
+.fig[&lt;img src="pics/analysis/04_berlin_ring.png"&gt;]
+
+.notes[
+&lt;div class="ta"&gt;Take-aways&lt;/div&gt;
+
+- Left bloc inside the S-Bahn-Ring: &lt;b style="color:#cc0065"&gt;67%&lt;/b&gt; East, &lt;b style="color:#cc0065"&gt;68%&lt;/b&gt; West. Outside: 45% East, 47% West
+- The AfD still carries the old border: 25% East outside, 16% West outside
+- The SPD is the last "West Berlin" party
+]
+
+&lt;div class="src"&gt;Data: &lt;a href="https://www.wahlen-berlin.de/wahlen/BE2026/AFSPRAES/agh/downloads.html"&gt;Landeswahlleiterin Berlin / AfS Berlin-Brandenburg&lt;/a&gt;, &lt;a href="https://gdi.berlin.de/"&gt;gdi.berlin.de&lt;/a&gt;, OpenStreetMap, own compilation. Inspired by: &lt;a href="https://interaktiv.tagesspiegel.de/lab/der-berliner-mamdani-effekt-jung-migrantisch-zentrumsnah-wo-die-linke-stark-geworden-ist/"&gt;Tagesspiegel / Julius Kölzer&lt;/a&gt;.&lt;/div&gt;
+
+
+---
+# Berlin 2026 by postal-vote district
+
+.fig[&lt;img src="pics/analysis/04_berlin_map.png"&gt;]
+
+.notes[
+&lt;div class="ta"&gt;Take-aways&lt;/div&gt;
+
+- 1,572 postal-vote districts, Urnen and Brief votes combined
+- Die Linke peaks at &lt;b style="color:#cc0065"&gt;36%&lt;/b&gt; two to six km from the Brandenburg Gate; the AfD rises from 7% inside to 26% on the edge
+- The CDU is strong in Mitte and in the outer districts, weak in between
+]
+
+&lt;div class="src"&gt;Data: &lt;a href="https://www.wahlen-berlin.de/wahlen/BE2026/AFSPRAES/agh/downloads.html"&gt;Landeswahlleiterin Berlin / AfS Berlin-Brandenburg&lt;/a&gt;, &lt;a href="https://gdi.berlin.de/"&gt;gdi.berlin.de&lt;/a&gt;, OpenStreetMap, own compilation. Inspired by: &lt;a href="https://interaktiv.tagesspiegel.de/lab/der-berliner-mamdani-effekt-jung-migrantisch-zentrumsnah-wo-die-linke-stark-geworden-ist/"&gt;Tagesspiegel / Julius Kölzer&lt;/a&gt;.&lt;/div&gt;
+
+
+---
+# Data journalism and researchers did the heavy lifting
+
+.jl[
+&lt;div class="clips"&gt;
+&lt;div class="clip c1"&gt;&lt;span class="outlet"&gt;Tagesspiegel&lt;/span&gt;&lt;br&gt;&lt;a href="https://interaktiv.tagesspiegel.de/lab/der-berliner-mamdani-effekt-jung-migrantisch-zentrumsnah-wo-die-linke-stark-geworden-ist/"&gt;Elf Karten und Grafiken zeigen Berlins neue politische Geografie: Jung, links, migrantisch – ist es der Mamdani-Effekt?&lt;/a&gt;&lt;br&gt;&lt;span class="meta"&gt;22 Sept 2026 · Breher, Donheiser, Kölzer, Tröbs, Wittlich&lt;/span&gt;&lt;/div&gt;
+&lt;div class="clip c2"&gt;&lt;span class="outlet"&gt;Der Spiegel&lt;/span&gt;&lt;br&gt;&lt;a href="https://www.spiegel.de/politik/deutschland/berlin-abgeordnetenhauswahl-wie-die-linke-berlin-erobert-hat-a-4422f96d-65c5-4943-b78d-50ccc9874e8c"&gt;Wahl zum Abgeordnetenhaus: So hat die Linke Berlin erobert&lt;/a&gt;&lt;br&gt;&lt;span class="meta"&gt;21 Sept 2026 · Wilkin, Stotz, Pauly, Dambeck&lt;/span&gt;&lt;/div&gt;
+&lt;div class="clip c3"&gt;&lt;span class="outlet"&gt;DIE ZEIT&lt;/span&gt;&lt;br&gt;&lt;a href="https://www.zeit.de/2026/41/landtagswahlen-sachsen-anhalt-berlin-mecklenburg-vorpommern-taktisches-waehlen"&gt;Fünf Lehren, die von den Wahlen bleiben werden&lt;/a&gt;&lt;br&gt;&lt;span class="meta"&gt;26 Sept 2026 · Valerie Schönian&lt;/span&gt;&lt;/div&gt;
+&lt;div class="clip c4"&gt;&lt;span class="outlet"&gt;NZZ Visuals&lt;/span&gt;&lt;br&gt;&lt;a href="https://www.nzz.ch/visuals/wahl-in-berlin-2026-alle-ergebnisse-im-ueberblick-ld.10024505"&gt;Wahl in Berlin 2026 – Ergebnisse und Koalitionen in Karten und Grafiken&lt;/a&gt;&lt;br&gt;&lt;span class="meta"&gt;20 Sept 2026 · Off, Kissling, Mayer&lt;/span&gt;&lt;/div&gt;
+&lt;div class="clip c5"&gt;&lt;span class="outlet"&gt;The Guardian&lt;/span&gt;&lt;br&gt;&lt;a href="https://www.theguardian.com/world/2026/sep/07/why-far-right-afd-state-victory-significant-german-politics-germany-explainer"&gt;Why is the far-right AfD’s state victory significant and what might happen next in German politics?&lt;/a&gt;&lt;br&gt;&lt;span class="meta"&gt;7 Sept 2026 · Deborah Cole&lt;/span&gt;&lt;/div&gt;
+&lt;div class="clip c6"&gt;&lt;span class="outlet"&gt;The Economist&lt;/span&gt;&lt;br&gt;&lt;a href="https://www.economist.com/leaders/2026/09/08/what-should-germany-do-about-its-rising-right"&gt;What should Germany do about its rising right?&lt;/a&gt;&lt;br&gt;&lt;span class="meta"&gt;8 Sept 2026 · Leader&lt;/span&gt;&lt;/div&gt;
+&lt;div class="clip c7"&gt;&lt;span class="outlet"&gt;Financial Times&lt;/span&gt;&lt;br&gt;&lt;a href="https://www.ft.com/content/7cf54faa-90d7-4f2b-a626-a57fb402be61"&gt;Red lipstick and expropriation: anti-capitalist seeks power in Berlin&lt;/a&gt;&lt;br&gt;&lt;span class="meta"&gt;18 Sept 2026&lt;/span&gt;&lt;/div&gt;
+&lt;div class="clip c8"&gt;&lt;span class="outlet"&gt;New York Times&lt;/span&gt;&lt;br&gt;&lt;a href="https://www.nytimes.com/2026/09/07/world/europe/germany-afd-election-saxony-anhalt-election.html"&gt;Germany’s ‘Firewall’ Against the Far Right Is Being Tested as Never Before&lt;/a&gt;&lt;br&gt;&lt;span class="meta"&gt;7 Sept 2026 · Jim Tankersley&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+]
+
+.jr[
+&lt;div class="people3"&gt;
+&lt;div class="person"&gt;&lt;img src="pics/people/juliusk.jpg"&gt;&lt;b&gt;Julius Kölzer&lt;/b&gt;&lt;a href="https://juliuskoelzer.de/saxony-anhalt-2026-en/"&gt;juliuskoelzer.de&lt;/a&gt;&lt;/div&gt;
+&lt;div class="person"&gt;&lt;img src="pics/people/nilssteiner.jpg"&gt;&lt;b&gt;Nils Steiner&lt;/b&gt;&lt;a href="https://bsky.app/profile/nilssteiner.bsky.social/post/3mvy5n3azt22p"&gt;Bluesky: AfD vs. 2025&lt;/a&gt;&lt;/div&gt;
+&lt;div class="person"&gt;&lt;img src="pics/people/wahlforschung.jpg"&gt;&lt;b&gt;Thorsten Faas&lt;/b&gt;&lt;a href="https://www.zeit.de/politik/deutschland/2026-09/wahlverhalten-junge-menschen-ostdeutschland-volksparteien-cdu-spd"&gt;ZEIT: Union und SPD&lt;/a&gt;&lt;/div&gt;
+&lt;div class="person"&gt;&lt;img src="pics/people/ansgarw.jpg"&gt;&lt;b&gt;Ansgar Wolsing&lt;/b&gt;&lt;a href="https://bsky.app/profile/wahlforschung.thorstenfaas.de/post/3mvz3lkpia22n"&gt;Bluesky: Buntes Berlin&lt;/a&gt;&lt;/div&gt;
+&lt;div class="person"&gt;&lt;img src="pics/people/tabouchadi.jpg"&gt;&lt;b&gt;Tarik Abou-Chadi&lt;/b&gt;&lt;a href="https://bsky.app/profile/tabouchadi.bsky.social/post/3mvy3gz4vfc2w"&gt;Bluesky: SPD in MV&lt;/a&gt;&lt;/div&gt;
+&lt;div class="person"&gt;&lt;img src="pics/people/celine-teney.jpg"&gt;&lt;b&gt;Céline Teney&lt;/b&gt;&lt;a href="https://www.fu-berlin.de/presse/informationen/fup/2026/fup_26_082-afd-waehlerschaft-typen/index.html"&gt;FU: AfD voter types&lt;/a&gt;&lt;/div&gt;
+&lt;div class="person"&gt;&lt;img src="pics/people/tagesspiegel-innovation.png"&gt;&lt;b&gt;Tagesspiegel Lab&lt;/b&gt;&lt;a href="https://interaktiv.tagesspiegel.de/lab/der-berliner-mamdani-effekt-jung-migrantisch-zentrumsnah-wo-die-linke-stark-geworden-ist/"&gt;Berlins politische Geografie&lt;/a&gt;&lt;/div&gt;
+&lt;div class="person"&gt;&lt;img src="pics/people/logo-zweitstimme-v2-wal.png" class="logoimg"&gt;&lt;b&gt;zweitstimme.org&lt;/b&gt;&lt;a href="https://zweitstimme.org/blog/posts/be-mv-2026-evaluation/"&gt;Forecast evaluations&lt;/a&gt;&lt;/div&gt;
+&lt;div class="person"&gt;&lt;img src="pics/people/armin-schaefer.jpg"&gt;&lt;b&gt;Armin Schäfer&lt;/b&gt;&lt;a href="https://link.springer.com/chapter/10.1007/978-3-658-42694-1_4"&gt;Nichtwähler und die AfD&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+]
+
+
+---
+# Do your own research! The data are at your disposal
+
+&lt;div class="panels"&gt;
+&lt;div class="panel"&gt;&lt;a href="https://www.german-elections.com/"&gt;&lt;img src="pics/sources/gerda.jpg"&gt;&lt;/a&gt;&lt;a href="https://www.german-elections.com/"&gt;GERDA&lt;/a&gt;&lt;br&gt;&lt;span&gt;municipality- and constituency-level results 1946–2026, R package &lt;code&gt;gerda&lt;/code&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="panel"&gt;&lt;a href="https://www.wahlrecht.de/ergebnisse/"&gt;&lt;img src="pics/sources/wahlrecht.jpg"&gt;&lt;/a&gt;&lt;a href="https://www.wahlrecht.de/ergebnisse/"&gt;wahlrecht.de&lt;/a&gt;&lt;br&gt;&lt;span&gt;every state election since 1946, all parties, seats, turnout&lt;/span&gt;&lt;/div&gt;
+&lt;div class="panel"&gt;&lt;a href="https://github.com/zweitstimme-org/polling-api"&gt;&lt;img src="pics/sources/zweitstimme-polling-api.png"&gt;&lt;/a&gt;&lt;a href="https://github.com/zweitstimme-org/polling-api"&gt;zweitstimme polling API&lt;/a&gt;&lt;br&gt;&lt;span&gt;polls, forecasts and scenarios for federal and state elections&lt;/span&gt;&lt;/div&gt;
+&lt;div class="panel"&gt;&lt;a href="https://statepol.github.io/Database/"&gt;&lt;img src="pics/sources/statepol.jpg"&gt;&lt;/a&gt;&lt;a href="https://statepol.github.io/Database/"&gt;StatePol&lt;/a&gt;&lt;br&gt;&lt;span&gt;6,977 state legislators and 920 cabinet members, 1990–2020&lt;/span&gt;&lt;/div&gt;
+&lt;div class="panel"&gt;&lt;a href="https://www.bundeswahlleiterin.de/"&gt;&lt;img src="pics/sources/bundeswahlleitung.jpg"&gt;&lt;/a&gt;&lt;a href="https://www.bundeswahlleiterin.de/"&gt;Bundeswahlleitung + Landeswahlleitungen&lt;/a&gt;&lt;br&gt;&lt;span&gt;Repräsentative Wahlstatistik; precinct-level CSVs on election night&lt;/span&gt;&lt;/div&gt;
+&lt;div class="panel"&gt;&lt;a href="https://gles.eu/"&gt;&lt;img src="pics/sources/gles.jpg"&gt;&lt;/a&gt;&lt;a href="https://gles.eu/"&gt;GLES&lt;/a&gt;&lt;br&gt;&lt;span&gt;panel and cross-section surveys for voter typologies and non-voter dynamics&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+---
+&lt;br&gt;
+
+&lt;div style="text-align:center;"&gt;
+&lt;span style="font-family:'Nothing You Could Do', bold; font-size:3.2rem; font-weight:400;"&gt;Slides, code and data&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div align="center" style="margin-top:20px;"&gt;
+&lt;img src="pics/qrcode-state-elections-2026.png" style="width:220px; height:auto;"&gt;
+&lt;/div&gt;
+
+&lt;div style="text-align:center; margin-top:16px; font-size:1.3rem;"&gt;
+&lt;a href="https://simonmunzert.com/state-elections-2026"&gt;&lt;b&gt;simonmunzert.com/state-elections-2026&lt;/b&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://github.com/simonmunzert/state-elections-2026"&gt;&lt;b&gt;github.com/simonmunzert/state-elections-2026&lt;/b&gt;&lt;/a&gt;
+&lt;/div&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+  "highlightStyle": "github",
+  "highlightLines": true,
+  "countIncrementalSlides": false,
+  "ratio": "16:9",
+  "hash": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+<style>
+  .logo {
+    background-image: url("hertieschool-neg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1.5em;
+    right: 1em;
+    width: 150px;
+    height: 128px;
+    z-index: 0;
+  }
+</style>
+  
+  <script>
+  document
+.querySelectorAll(
+  '.remark-slide-content' +
+    ':not(.title-slide)' +
+    ':not(.inverse)' +
+	
+    // add additional classes to exclude here, e.g.
+  // ':not(.inverse)' +
+    ':not(.hide-logo)'
+)
+.forEach(el => {
+  el.innerHTML += '<div class="logo"></div>';
+  el.innerHTML += '<div class="logo2"></div>';
+  
+});
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -1,0 +1,329 @@
+state,institute,group_type,group,party,pct,diff_vs_prev,source_page
+Sachsen-Anhalt,infratest dimap,education,Hoch,CDU,18,-16,22
+Sachsen-Anhalt,infratest dimap,education,Hoch,SPD,12,+3,22
+Sachsen-Anhalt,infratest dimap,education,Hoch,Grüne,16,+5,22
+Sachsen-Anhalt,infratest dimap,education,Hoch,Linke,11,-3,22
+Sachsen-Anhalt,infratest dimap,education,Hoch,AfD,30,+17,22
+Sachsen-Anhalt,infratest dimap,education,Hoch,BSW,6,,22
+Sachsen-Anhalt,infratest dimap,education,Hoch,FDP,4,-4,22
+Sachsen-Anhalt,infratest dimap,education,Mittel,CDU,16,-22,22
+Sachsen-Anhalt,infratest dimap,education,Mittel,SPD,8,0,22
+Sachsen-Anhalt,infratest dimap,education,Mittel,Grüne,5,+2,22
+Sachsen-Anhalt,infratest dimap,education,Mittel,Linke,7,-2,22
+Sachsen-Anhalt,infratest dimap,education,Mittel,AfD,52,+26,22
+Sachsen-Anhalt,infratest dimap,education,Mittel,BSW,5,,22
+Sachsen-Anhalt,infratest dimap,education,Mittel,FDP,2,-4,22
+Sachsen-Anhalt,infratest dimap,education,Niedrig,CDU,16,-25,22
+Sachsen-Anhalt,infratest dimap,education,Niedrig,SPD,8,-2,22
+Sachsen-Anhalt,infratest dimap,education,Niedrig,Grüne,3,+1,22
+Sachsen-Anhalt,infratest dimap,education,Niedrig,Linke,7,-4,22
+Sachsen-Anhalt,infratest dimap,education,Niedrig,AfD,57,+32,22
+Sachsen-Anhalt,infratest dimap,education,Niedrig,BSW,3,,22
+Sachsen-Anhalt,infratest dimap,education,Niedrig,FDP,1,-2,22
+Sachsen-Anhalt,infratest dimap,occupation,Arbeiter/in,CDU,9,-19,22
+Sachsen-Anhalt,infratest dimap,occupation,Arbeiter/in,SPD,6,-2,22
+Sachsen-Anhalt,infratest dimap,occupation,Arbeiter/in,Grüne,5,+3,22
+Sachsen-Anhalt,infratest dimap,occupation,Arbeiter/in,Linke,7,-4,22
+Sachsen-Anhalt,infratest dimap,occupation,Arbeiter/in,AfD,59,+25,22
+Sachsen-Anhalt,infratest dimap,occupation,Arbeiter/in,BSW,6,,22
+Sachsen-Anhalt,infratest dimap,occupation,Arbeiter/in,FDP,3,-3,22
+Sachsen-Anhalt,infratest dimap,occupation,Angestellte/r,CDU,12,-21,22
+Sachsen-Anhalt,infratest dimap,occupation,Angestellte/r,SPD,8,+1,22
+Sachsen-Anhalt,infratest dimap,occupation,Angestellte/r,Grüne,12,+4,22
+Sachsen-Anhalt,infratest dimap,occupation,Angestellte/r,Linke,9,0,22
+Sachsen-Anhalt,infratest dimap,occupation,Angestellte/r,AfD,46,+23,22
+Sachsen-Anhalt,infratest dimap,occupation,Angestellte/r,BSW,5,,22
+Sachsen-Anhalt,infratest dimap,occupation,Angestellte/r,FDP,3,-4,22
+Sachsen-Anhalt,infratest dimap,occupation,"Beamter, Beamtin",CDU,22,-21,22
+Sachsen-Anhalt,infratest dimap,occupation,"Beamter, Beamtin",SPD,16,+8,22
+Sachsen-Anhalt,infratest dimap,occupation,"Beamter, Beamtin",Grüne,17,+8,22
+Sachsen-Anhalt,infratest dimap,occupation,"Beamter, Beamtin",Linke,9,+6,22
+Sachsen-Anhalt,infratest dimap,occupation,"Beamter, Beamtin",AfD,21,+6,22
+Sachsen-Anhalt,infratest dimap,occupation,"Beamter, Beamtin",BSW,7,,22
+Sachsen-Anhalt,infratest dimap,occupation,"Beamter, Beamtin",FDP,4,-7,22
+Sachsen-Anhalt,infratest dimap,occupation,Selbstständige/r,CDU,18,-15,22
+Sachsen-Anhalt,infratest dimap,occupation,Selbstständige/r,SPD,7,+3,22
+Sachsen-Anhalt,infratest dimap,occupation,Selbstständige/r,Grüne,14,+4,22
+Sachsen-Anhalt,infratest dimap,occupation,Selbstständige/r,Linke,3,-4,22
+Sachsen-Anhalt,infratest dimap,occupation,Selbstständige/r,AfD,52,+28,22
+Sachsen-Anhalt,infratest dimap,occupation,Selbstständige/r,BSW,0,,22
+Sachsen-Anhalt,infratest dimap,occupation,Selbstständige/r,FDP,5,-6,22
+Sachsen-Anhalt,infratest dimap,occupation,Rentner/in,CDU,26,-23,22
+Sachsen-Anhalt,infratest dimap,occupation,Rentner/in,SPD,11,0,22
+Sachsen-Anhalt,infratest dimap,occupation,Rentner/in,Grüne,5,+1,22
+Sachsen-Anhalt,infratest dimap,occupation,Rentner/in,Linke,9,-6,22
+Sachsen-Anhalt,infratest dimap,occupation,Rentner/in,AfD,38,+25,22
+Sachsen-Anhalt,infratest dimap,occupation,Rentner/in,BSW,5,,22
+Sachsen-Anhalt,infratest dimap,occupation,Rentner/in,FDP,2,-3,22
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Hauptschule,CDU,17,-22,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Hauptschule,SPD,8,-1,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Hauptschule,Grüne,2,0,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Hauptschule,Linke,6,-3,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Hauptschule,AfD,57,+28,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Hauptschule,BSW,5,,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Hauptschule,FDP,2,-3,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Mittlere Reife,CDU,15,-21,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Mittlere Reife,SPD,8,+1,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Mittlere Reife,Grüne,5,+2,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Mittlere Reife,Linke,7,-3,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Mittlere Reife,AfD,53,+27,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Mittlere Reife,BSW,6,,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Mittlere Reife,FDP,2,-4,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Hochschulreife,CDU,15,-17,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Hochschulreife,SPD,10,+1,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Hochschulreife,Grüne,13,+6,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Hochschulreife,Linke,11,-1,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Hochschulreife,AfD,37,+20,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Hochschulreife,BSW,6,,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,Hochschulreife,FDP,3,-5,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,"Hochschule, Uni",CDU,22,-16,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,"Hochschule, Uni",SPD,13,+2,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,"Hochschule, Uni",Grüne,20,+8,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,"Hochschule, Uni",Linke,10,-3,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,"Hochschule, Uni",AfD,24,+13,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,"Hochschule, Uni",BSW,4,,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,education,"Hochschule, Uni",FDP,4,-3,23
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Arbeiter,CDU,17,-20,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Arbeiter,SPD,7,-1,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Arbeiter,Grüne,5,+1,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Arbeiter,Linke,8,-2,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Arbeiter,AfD,52,+27,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Arbeiter,BSW,4,,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Arbeiter,FDP,2,-4,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Angestellte,CDU,16,-22,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Angestellte,SPD,11,+2,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Angestellte,Grüne,11,+3,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Angestellte,Linke,9,-2,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Angestellte,AfD,40,+22,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Angestellte,BSW,6,,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Angestellte,FDP,3,-4,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Beamte,CDU,23,-18,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Beamte,SPD,12,+4,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Beamte,Grüne,14,+7,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Beamte,Linke,8,-4,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Beamte,AfD,30,+16,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Beamte,BSW,5,,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Beamte,FDP,4,-4,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Selbstständige,CDU,20,-20,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Selbstständige,SPD,6,+2,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Selbstständige,Grüne,12,+6,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Selbstständige,Linke,6,-5,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Selbstständige,AfD,44,+22,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Selbstständige,BSW,5,,24
+Sachsen-Anhalt,Forschungsgruppe Wahlen,occupation,Selbstständige,FDP,4,-5,24
+Berlin,infratest dimap,education,Hoch,CDU,18,-5,23
+Berlin,infratest dimap,education,Hoch,SPD,11,-6,23
+Berlin,infratest dimap,education,Hoch,Grüne,19,-7,23
+Berlin,infratest dimap,education,Hoch,Linke,30,+16,23
+Berlin,infratest dimap,education,Hoch,AfD,10,+5,23
+Berlin,infratest dimap,education,Hoch,BSW,4,,23
+Berlin,infratest dimap,education,Hoch,FDP,3,-2,23
+Berlin,infratest dimap,education,Mittel,CDU,20,-17,23
+Berlin,infratest dimap,education,Mittel,SPD,12,-7,23
+Berlin,infratest dimap,education,Mittel,Grüne,7,0,23
+Berlin,infratest dimap,education,Mittel,Linke,19,+10,23
+Berlin,infratest dimap,education,Mittel,AfD,28,+13,23
+Berlin,infratest dimap,education,Mittel,BSW,6,,23
+Berlin,infratest dimap,education,Mittel,FDP,2,-2,23
+Berlin,infratest dimap,education,Niedrig,CDU,22,-17,23
+Berlin,infratest dimap,education,Niedrig,SPD,18,-7,23
+Berlin,infratest dimap,education,Niedrig,Grüne,5,0,23
+Berlin,infratest dimap,education,Niedrig,Linke,16,+9,23
+Berlin,infratest dimap,education,Niedrig,AfD,26,+11,23
+Berlin,infratest dimap,education,Niedrig,BSW,4,,23
+Berlin,infratest dimap,education,Niedrig,FDP,3,+1,23
+Berlin,infratest dimap,occupation,Arbeiter/in,CDU,10,-18,23
+Berlin,infratest dimap,occupation,Arbeiter/in,SPD,6,-10,23
+Berlin,infratest dimap,occupation,Arbeiter/in,Grüne,8,-1,23
+Berlin,infratest dimap,occupation,Arbeiter/in,Linke,26,+15,23
+Berlin,infratest dimap,occupation,Arbeiter/in,AfD,30,+11,23
+Berlin,infratest dimap,occupation,Arbeiter/in,BSW,9,,23
+Berlin,infratest dimap,occupation,Arbeiter/in,FDP,5,+3,23
+Berlin,infratest dimap,occupation,Angestellte/r,CDU,14,-11,23
+Berlin,infratest dimap,occupation,Angestellte/r,SPD,11,-3,23
+Berlin,infratest dimap,occupation,Angestellte/r,Grüne,16,-8,23
+Berlin,infratest dimap,occupation,Angestellte/r,Linke,29,+17,23
+Berlin,infratest dimap,occupation,Angestellte/r,AfD,16,+8,23
+Berlin,infratest dimap,occupation,Angestellte/r,BSW,4,,23
+Berlin,infratest dimap,occupation,Angestellte/r,FDP,3,-2,23
+Berlin,infratest dimap,occupation,"Beamter, Beamtin",CDU,23,-8,23
+Berlin,infratest dimap,occupation,"Beamter, Beamtin",SPD,10,-13,23
+Berlin,infratest dimap,occupation,"Beamter, Beamtin",Grüne,26,+11,23
+Berlin,infratest dimap,occupation,"Beamter, Beamtin",Linke,16,+8,23
+Berlin,infratest dimap,occupation,"Beamter, Beamtin",AfD,13,+7,23
+Berlin,infratest dimap,occupation,"Beamter, Beamtin",BSW,5,,23
+Berlin,infratest dimap,occupation,"Beamter, Beamtin",FDP,1,-5,23
+Berlin,infratest dimap,occupation,Selbstständige/r,CDU,21,-4,23
+Berlin,infratest dimap,occupation,Selbstständige/r,SPD,11,0,23
+Berlin,infratest dimap,occupation,Selbstständige/r,Grüne,17,-10,23
+Berlin,infratest dimap,occupation,Selbstständige/r,Linke,26,+10,23
+Berlin,infratest dimap,occupation,Selbstständige/r,AfD,13,+6,23
+Berlin,infratest dimap,occupation,Selbstständige/r,BSW,4,,23
+Berlin,infratest dimap,occupation,Selbstständige/r,FDP,4,-2,23
+Berlin,infratest dimap,occupation,Rentner/in,CDU,30,-9,23
+Berlin,infratest dimap,occupation,Rentner/in,SPD,19,-11,23
+Berlin,infratest dimap,occupation,Rentner/in,Grüne,9,+2,23
+Berlin,infratest dimap,occupation,Rentner/in,Linke,16,+6,23
+Berlin,infratest dimap,occupation,Rentner/in,AfD,16,+8,23
+Berlin,infratest dimap,occupation,Rentner/in,BSW,5,,23
+Berlin,infratest dimap,occupation,Rentner/in,FDP,2,-1,23
+Berlin,Forschungsgruppe Wahlen,education,Hauptschule,CDU,27,-11,24
+Berlin,Forschungsgruppe Wahlen,education,Hauptschule,SPD,17,-7,24
+Berlin,Forschungsgruppe Wahlen,education,Hauptschule,Grüne,4,0,24
+Berlin,Forschungsgruppe Wahlen,education,Hauptschule,Linke,11,+5,24
+Berlin,Forschungsgruppe Wahlen,education,Hauptschule,AfD,33,+17,24
+Berlin,Forschungsgruppe Wahlen,education,Hauptschule,BSW,5,,24
+Berlin,Forschungsgruppe Wahlen,education,Mittlere Reife,CDU,21,-16,24
+Berlin,Forschungsgruppe Wahlen,education,Mittlere Reife,SPD,11,-8,24
+Berlin,Forschungsgruppe Wahlen,education,Mittlere Reife,Grüne,6,0,24
+Berlin,Forschungsgruppe Wahlen,education,Mittlere Reife,Linke,18,+9,24
+Berlin,Forschungsgruppe Wahlen,education,Mittlere Reife,AfD,29,+13,24
+Berlin,Forschungsgruppe Wahlen,education,Mittlere Reife,BSW,6,,24
+Berlin,Forschungsgruppe Wahlen,education,Hochschulreife,CDU,17,-9,24
+Berlin,Forschungsgruppe Wahlen,education,Hochschulreife,SPD,11,-6,24
+Berlin,Forschungsgruppe Wahlen,education,Hochschulreife,Grüne,14,-6,24
+Berlin,Forschungsgruppe Wahlen,education,Hochschulreife,Linke,32,+18,24
+Berlin,Forschungsgruppe Wahlen,education,Hochschulreife,AfD,13,+6,24
+Berlin,Forschungsgruppe Wahlen,education,Hochschulreife,BSW,5,,24
+Berlin,Forschungsgruppe Wahlen,education,"Hochschule, Uni",CDU,20,-2,24
+Berlin,Forschungsgruppe Wahlen,education,"Hochschule, Uni",SPD,12,-5,24
+Berlin,Forschungsgruppe Wahlen,education,"Hochschule, Uni",Grüne,20,-8,24
+Berlin,Forschungsgruppe Wahlen,education,"Hochschule, Uni",Linke,28,+13,24
+Berlin,Forschungsgruppe Wahlen,education,"Hochschule, Uni",AfD,8,+4,24
+Berlin,Forschungsgruppe Wahlen,education,"Hochschule, Uni",BSW,4,,24
+Berlin,Forschungsgruppe Wahlen,occupation,Arbeiter,CDU,14,-17,25
+Berlin,Forschungsgruppe Wahlen,occupation,Arbeiter,SPD,11,-9,25
+Berlin,Forschungsgruppe Wahlen,occupation,Arbeiter,Grüne,6,-3,25
+Berlin,Forschungsgruppe Wahlen,occupation,Arbeiter,Linke,25,+15,25
+Berlin,Forschungsgruppe Wahlen,occupation,Arbeiter,AfD,29,+11,25
+Berlin,Forschungsgruppe Wahlen,occupation,Arbeiter,BSW,6,,25
+Berlin,Forschungsgruppe Wahlen,occupation,Angestellte,CDU,17,-10,25
+Berlin,Forschungsgruppe Wahlen,occupation,Angestellte,SPD,13,-6,25
+Berlin,Forschungsgruppe Wahlen,occupation,Angestellte,Grüne,16,-4,25
+Berlin,Forschungsgruppe Wahlen,occupation,Angestellte,Linke,27,+15,25
+Berlin,Forschungsgruppe Wahlen,occupation,Angestellte,AfD,15,+7,25
+Berlin,Forschungsgruppe Wahlen,occupation,Angestellte,BSW,5,,25
+Berlin,Forschungsgruppe Wahlen,occupation,Beamte,CDU,31,-10,25
+Berlin,Forschungsgruppe Wahlen,occupation,Beamte,SPD,16,-7,25
+Berlin,Forschungsgruppe Wahlen,occupation,Beamte,Grüne,18,+3,25
+Berlin,Forschungsgruppe Wahlen,occupation,Beamte,Linke,15,+8,25
+Berlin,Forschungsgruppe Wahlen,occupation,Beamte,AfD,12,+7,25
+Berlin,Forschungsgruppe Wahlen,occupation,Beamte,BSW,3,,25
+Berlin,Forschungsgruppe Wahlen,occupation,Selbstständige,CDU,22,-7,25
+Berlin,Forschungsgruppe Wahlen,occupation,Selbstständige,SPD,9,-6,25
+Berlin,Forschungsgruppe Wahlen,occupation,Selbstständige,Grüne,20,-2,25
+Berlin,Forschungsgruppe Wahlen,occupation,Selbstständige,Linke,25,+11,25
+Berlin,Forschungsgruppe Wahlen,occupation,Selbstständige,AfD,12,+4,25
+Berlin,Forschungsgruppe Wahlen,occupation,Selbstständige,BSW,4,,25
+Mecklenburg-Vorpommern,infratest dimap,education,Hoch,CDU,6,-10,22
+Mecklenburg-Vorpommern,infratest dimap,education,Hoch,SPD,38,+4,22
+Mecklenburg-Vorpommern,infratest dimap,education,Hoch,Grüne,11,0,22
+Mecklenburg-Vorpommern,infratest dimap,education,Hoch,Linke,9,-3,22
+Mecklenburg-Vorpommern,infratest dimap,education,Hoch,AfD,25,+14,22
+Mecklenburg-Vorpommern,infratest dimap,education,Hoch,BSW,5,,22
+Mecklenburg-Vorpommern,infratest dimap,education,Hoch,FDP,1,-7,22
+Mecklenburg-Vorpommern,infratest dimap,education,Mittel,CDU,3,-9,22
+Mecklenburg-Vorpommern,infratest dimap,education,Mittel,SPD,33,-10,22
+Mecklenburg-Vorpommern,infratest dimap,education,Mittel,Grüne,2,-1,22
+Mecklenburg-Vorpommern,infratest dimap,education,Mittel,Linke,5,-3,22
+Mecklenburg-Vorpommern,infratest dimap,education,Mittel,AfD,47,+26,22
+Mecklenburg-Vorpommern,infratest dimap,education,Mittel,BSW,5,,22
+Mecklenburg-Vorpommern,infratest dimap,education,Mittel,FDP,1,-4,22
+Mecklenburg-Vorpommern,infratest dimap,education,Niedrig,CDU,5,-7,22
+Mecklenburg-Vorpommern,infratest dimap,education,Niedrig,SPD,35,-10,22
+Mecklenburg-Vorpommern,infratest dimap,education,Niedrig,Grüne,2,-1,22
+Mecklenburg-Vorpommern,infratest dimap,education,Niedrig,Linke,4,-6,22
+Mecklenburg-Vorpommern,infratest dimap,education,Niedrig,AfD,46,+27,22
+Mecklenburg-Vorpommern,infratest dimap,education,Niedrig,BSW,3,,22
+Mecklenburg-Vorpommern,infratest dimap,education,Niedrig,FDP,1,-2,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Arbeiter/in,CDU,2,-8,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Arbeiter/in,SPD,27,-8,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Arbeiter/in,Grüne,2,-2,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Arbeiter/in,Linke,5,-5,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Arbeiter/in,AfD,53,+28,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Arbeiter/in,BSW,4,,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Arbeiter/in,FDP,1,-4,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Angestellte/r,CDU,4,-7,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Angestellte/r,SPD,29,-8,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Angestellte/r,Grüne,6,-1,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Angestellte/r,Linke,8,-2,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Angestellte/r,AfD,43,+25,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Angestellte/r,BSW,5,,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Angestellte/r,FDP,1,-6,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,"Beamter, Beamtin",CDU,13,-12,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,"Beamter, Beamtin",SPD,39,+15,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,"Beamter, Beamtin",Grüne,9,-1,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,"Beamter, Beamtin",Linke,5,+1,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,"Beamter, Beamtin",AfD,26,+8,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,"Beamter, Beamtin",BSW,6,,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,"Beamter, Beamtin",FDP,1,-14,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Selbstständige/r,CDU,11,-8,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Selbstständige/r,SPD,19,-5,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Selbstständige/r,Grüne,10,+1,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Selbstständige/r,Linke,3,-3,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Selbstständige/r,AfD,47,+25,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Selbstständige/r,BSW,4,,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Selbstständige/r,FDP,2,-14,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Rentner/in,CDU,6,-11,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Rentner/in,SPD,49,-1,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Rentner/in,Grüne,4,0,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Rentner/in,Linke,5,-6,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Rentner/in,AfD,30,+18,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Rentner/in,BSW,4,,22
+Mecklenburg-Vorpommern,infratest dimap,occupation,Rentner/in,FDP,1,-2,22
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Hauptschule,CDU,4,-8,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Hauptschule,SPD,36,-12,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Hauptschule,Grüne,1,-1,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Hauptschule,Linke,4,-2,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Hauptschule,AfD,49,+28,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Hauptschule,BSW,3,,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Hauptschule,FDP,0,-4,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Mittlere Reife,CDU,3,-9,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Mittlere Reife,SPD,32,-9,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Mittlere Reife,Grüne,3,-1,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Mittlere Reife,Linke,5,-3,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Mittlere Reife,AfD,49,+28,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Mittlere Reife,BSW,5,,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Mittlere Reife,FDP,1,-5,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Hochschulreife,CDU,4,-9,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Hochschulreife,SPD,37,+4,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Hochschulreife,Grüne,8,-2,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Hochschulreife,Linke,9,-3,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Hochschulreife,AfD,30,+16,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Hochschulreife,BSW,5,,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,Hochschulreife,FDP,2,-6,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,"Hochschule, Uni",CDU,7,-9,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,"Hochschule, Uni",SPD,42,+7,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,"Hochschule, Uni",Grüne,13,+1,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,"Hochschule, Uni",Linke,8,-7,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,"Hochschule, Uni",AfD,20,+13,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,"Hochschule, Uni",BSW,6,,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,education,"Hochschule, Uni",FDP,1,-6,23
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Arbeiter,CDU,4,-7,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Arbeiter,SPD,35,-7,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Arbeiter,Grüne,3,-1,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Arbeiter,Linke,6,-3,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Arbeiter,AfD,44,+24,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Arbeiter,BSW,4,,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Arbeiter,FDP,1,-3,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Angestellte,CDU,4,-8,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Angestellte,SPD,36,-3,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Angestellte,Grüne,7,0,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Angestellte,Linke,7,-4,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Angestellte,AfD,36,+21,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Angestellte,BSW,5,,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Angestellte,FDP,1,-6,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Beamte,CDU,12,-8,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Beamte,SPD,36,+1,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Beamte,Grüne,12,+4,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Beamte,Linke,5,-5,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Beamte,AfD,25,+11,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Beamte,BSW,5,,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Beamte,FDP,2,-4,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Selbstständige,CDU,11,-8,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Selbstständige,SPD,27,+3,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Selbstständige,Grüne,9,-1,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Selbstständige,Linke,5,-5,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Selbstständige,AfD,39,+20,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Selbstständige,BSW,5,,24
+Mecklenburg-Vorpommern,Forschungsgruppe Wahlen,occupation,Selbstständige,FDP,1,-11,24

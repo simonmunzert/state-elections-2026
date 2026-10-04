@@ -1,0 +1,115 @@
+category,state,state_abbr,election_date,party,vote_share,seats,total_seats,re_entered_next,notes,source_url
+core,Niedersachsen,NI,1951-05-06,SRP,11.0,16,158,no (party banned),Banned by BVerfG 23 Oct 1952; all mandates annulled without replacement. 4 direct seats; 21.5% in Regierungsbezirk Stade.,https://de.wikipedia.org/wiki/Landtagswahl_in_Niedersachsen_1951
+core,Bremen,HB,1951-10-07,SRP,7.7,8,100,no (party banned),Mandates annulled after 1952 ban.,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_1951
+core,Niedersachsen,NI,1951-05-06,DRP,2.2,3,158,yes,3 seats with 2.2% under the 1951 Lower Saxony electoral law (Landtag page lists DRP with 3 seats). DRP = successor of DKP-DRP/Deutsche Rechtspartei.,https://de.wikipedia.org/wiki/Deutsche_Reichspartei_(1950)
+core,Niedersachsen,NI,1955-04-24,DRP,3.8,6,159,no (3.6% in 1959),Seats below 5% possible under then-current NI electoral law.,https://de.wikipedia.org/wiki/Landtagswahl_in_Niedersachsen_1955
+core,Rheinland-Pfalz,RP,1959-04-19,DRP,5.1,1,100,no (3.2% in 1963),Single MP Hans Schikora; RP state branch dissolved by interior minister 26 Jan 1960 as SRP successor organisation. DRP merged into NPD 1964/65.,https://de.wikipedia.org/wiki/Landtagswahl_in_Rheinland-Pfalz_1959
+core,Hessen,HE,1966-11-06,NPD,7.9,8,96,no (3.0% in 1970),First NPD Landtag entry.,https://de.wikipedia.org/wiki/Landtagswahl_in_Hessen_1966
+core,Bayern,BY,1966-11-20,NPD,7.4,15,204,no (2.9% in 1970),,https://de.wikipedia.org/wiki/Landtagswahl_in_Bayern_1966
+core,Rheinland-Pfalz,RP,1967-04-23,NPD,6.9,4,100,no (2.7% in 1971),,https://de.wikipedia.org/wiki/Landtagswahl_in_Rheinland-Pfalz_1967
+core,Schleswig-Holstein,SH,1967-04-23,NPD,5.8,4,73,no (1.3% in 1971),,https://de.wikipedia.org/wiki/Landtagswahl_in_Schleswig-Holstein_1967
+core,Niedersachsen,NI,1967-06-04,NPD,7.0,10,149,no (3.2% in 1970),,https://de.wikipedia.org/wiki/Landtagswahl_in_Niedersachsen_1967
+core,Bremen,HB,1967-10-01,NPD,8.8,8,100,no (2.8% in 1971),,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_1967
+core,Baden-Württemberg,BW,1968-04-28,NPD,9.8,12,127,no (0.9% in 1976),Best NPD result ever at state level; 7 Landtage simultaneously 1968-70.,https://de.wikipedia.org/wiki/Landtagswahl_in_Baden-Württemberg_1968
+core,Sachsen,SN,2004-09-19,NPD,9.2,12,124,yes,First NPD Landtag entry since 1968; DVU did not compete (Deutschland-Pakt).,https://de.wikipedia.org/wiki/Landtagswahl_in_Sachsen_2004
+core,Mecklenburg-Vorpommern,MV,2006-09-17,NPD,7.3,6,71,yes,,https://de.wikipedia.org/wiki/Landtagswahl_in_Mecklenburg-Vorpommern_2006
+core,Sachsen,SN,2009-08-30,NPD,5.6,8,132,no (4.9% in 2014),First-ever NPD re-election to a Landtag.,https://de.wikipedia.org/wiki/Landtagswahl_in_Sachsen_2009
+core,Mecklenburg-Vorpommern,MV,2011-09-04,NPD,6.0,5,71,no (3.0% in 2016),,https://de.wikipedia.org/wiki/Landtagswahl_in_Mecklenburg-Vorpommern_2011
+core,Bremen,HB,1987-09-13,DVU (Liste D),3.4,1,100,yes,Seat via 5% hurdle in the Bremerhaven constituency only (Bremen electoral law).,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_1987
+core,Bremen,HB,1991-09-29,DVU,6.2,6,100,no (2.5% in 1995),,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_1991
+core,Schleswig-Holstein,SH,1992-04-05,DVU,6.3,6,89,no (4.3% in 1996),Faction disintegrated during the term.,https://de.wikipedia.org/wiki/Landtagswahl_in_Schleswig-Holstein_1992
+core,Sachsen-Anhalt,ST,1998-04-26,DVU,12.9,16,116,no (did not run in 2002),Highest far-right state result before AfD; faction split (FDVP) during term; DVU absent in 2002 (Schill 4.5%).,https://de.wikipedia.org/wiki/Landtagswahl_in_Sachsen-Anhalt_1998
+core,Bremen,HB,1999-06-06,DVU,3.0,1,100,yes,6.0% in Bremerhaven.,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_1999
+core,Brandenburg,BB,1999-09-05,DVU,5.3,5,89,yes,,https://de.wikipedia.org/wiki/Landtagswahl_in_Brandenburg_1999
+core,Bremen,HB,2003-05-25,DVU,2.3,1,83,yes,Bremerhaven only.,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_2003
+core,Brandenburg,BB,2004-09-19,DVU,6.1,6,88,no (1.2% in 2009),NPD did not compete in BB (Deutschland-Pakt).,https://de.wikipedia.org/wiki/Landtagswahl_in_Brandenburg_2004
+core,Bremen,HB,2007-05-13,DVU,2.7,1,83,no (did not run 2011; merged into NPD),Bremerhaven only; last DVU parliamentary seat anywhere.,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_2007
+core,Berlin (West),BE,1989-01-29,REP,7.5,11,138,no (3.1% in Dec 1990),First REP entry; faction split during term.,https://de.wikipedia.org/wiki/Wahl_zum_Abgeordnetenhaus_von_Berlin_1989
+core,Baden-Württemberg,BW,1992-04-05,REP,10.9,15,146,yes,Third-strongest party.,https://de.wikipedia.org/wiki/Landtagswahl_in_Baden-Württemberg_1992
+core,Baden-Württemberg,BW,1996-03-24,REP,9.1,14,155,no (4.4% in 2001),Only REP re-election ever.,https://de.wikipedia.org/wiki/Landtagswahl_in_Baden-Württemberg_1996
+core,Hamburg,HH,2001-09-23,Schill-Partei (PRO),19.4,25,121,no (0.4% in 2004; Pro DM/Schill 3.1%),Governing party (CDU-Schill-FDP senate 2001-03); Schill 2nd mayor/interior senator; party dissolved 2007.,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Hamburg_2001
+core,Bremen,HB,2007-05-13,BIW (Bürger in Wut),0.8,1,83,yes,5.29% in Bremerhaven (competed only there); seat awarded after recount/re-vote in July 2008.,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_2007
+core,Bremen,HB,2011-05-22,BIW,3.7,1,83,yes,7.1% in Bremerhaven.,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_2011
+core,Bremen,HB,2015-05-10,BIW,3.2,1,83,yes,6.5% in Bremerhaven.,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_2015
+core,Bremen,HB,2019-05-26,BIW,2.4,1,84,yes,7.4% in Bremerhaven.,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_2019
+core,Bremen,HB,2023-05-14,BIW / Bündnis Deutschland,9.4,10,87,pending (next 2027),22.7% in Bremerhaven; AfD list not admitted; BIW merged into Bündnis Deutschland Sept 2023.,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_2023
+core,Sachsen,SN,2014-08-31,AfD,9.7,14,126,yes,,https://de.wikipedia.org/wiki/Landtagswahl_in_Sachsen_2014
+core,Thüringen,TH,2014-09-14,AfD,10.6,11,91,yes,,https://de.wikipedia.org/wiki/Landtagswahl_in_Thüringen_2014
+core,Brandenburg,BB,2014-09-14,AfD,12.2,11,88,yes,,https://de.wikipedia.org/wiki/Landtagswahl_in_Brandenburg_2014
+core,Hamburg,HH,2015-02-15,AfD,6.1,8,121,yes,,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Hamburg_2015
+core,Bremen,HB,2015-05-10,AfD,5.5,4,83,yes,,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_2015
+core,Baden-Württemberg,BW,2016-03-13,AfD,15.1,23,143,yes,Third-strongest party.,https://de.wikipedia.org/wiki/Landtagswahl_in_Baden-Württemberg_2016
+core,Rheinland-Pfalz,RP,2016-03-13,AfD,12.6,14,101,yes,,https://de.wikipedia.org/wiki/Landtagswahl_in_Rheinland-Pfalz_2016
+core,Sachsen-Anhalt,ST,2016-03-13,AfD,24.3,25,87,yes,Second-strongest party.,https://de.wikipedia.org/wiki/Landtagswahl_in_Sachsen-Anhalt_2016
+core,Mecklenburg-Vorpommern,MV,2016-09-04,AfD,20.8,18,71,yes,Second-strongest party.,https://de.wikipedia.org/wiki/Landtagswahl_in_Mecklenburg-Vorpommern_2016
+core,Berlin,BE,2016-09-18,AfD,14.2,25,160,yes,,https://de.wikipedia.org/wiki/Wahl_zum_Abgeordnetenhaus_von_Berlin_2016
+core,Saarland,SL,2017-03-26,AfD,6.2,3,51,yes,,https://de.wikipedia.org/wiki/Landtagswahl_im_Saarland_2017
+core,Schleswig-Holstein,SH,2017-05-07,AfD,5.9,5,73,no (4.4% in 2022),Only AfD exit from a Landtag so far.,https://de.wikipedia.org/wiki/Landtagswahl_in_Schleswig-Holstein_2017
+core,Nordrhein-Westfalen,NW,2017-05-14,AfD,7.4,16,199,yes,,https://de.wikipedia.org/wiki/Landtagswahl_in_Nordrhein-Westfalen_2017
+core,Niedersachsen,NI,2017-10-15,AfD,6.2,9,137,yes,,https://de.wikipedia.org/wiki/Landtagswahl_in_Niedersachsen_2017
+core,Bayern,BY,2018-10-14,AfD,10.2,22,205,yes,,https://de.wikipedia.org/wiki/Landtagswahl_in_Bayern_2018
+core,Hessen,HE,2018-10-28,AfD,13.1,19,137,yes,,https://de.wikipedia.org/wiki/Landtagswahl_in_Hessen_2018
+core,Bremen,HB,2019-05-26,AfD,6.1,5,84,no (no admitted list in 2023),In 2023 the AfD list was not admitted (two rival state boards); not a failed threshold.,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_2019
+core,Brandenburg,BB,2019-09-01,AfD,23.5,23,88,yes,Second-strongest party.,https://de.wikipedia.org/wiki/Landtagswahl_in_Brandenburg_2019
+core,Sachsen,SN,2019-09-01,AfD,27.5,38,119,yes,Second-strongest party.,https://de.wikipedia.org/wiki/Landtagswahl_in_Sachsen_2019
+core,Thüringen,TH,2019-10-27,AfD,23.4,22,90,yes,Second-strongest party.,https://de.wikipedia.org/wiki/Landtagswahl_in_Thüringen_2019
+core,Hamburg,HH,2020-02-23,AfD,5.3,7,123,yes,,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Hamburg_2020
+core,Baden-Württemberg,BW,2021-03-14,AfD,9.7,17,154,yes,,https://de.wikipedia.org/wiki/Landtagswahl_in_Baden-Württemberg_2021
+core,Rheinland-Pfalz,RP,2021-03-14,AfD,8.3,9,101,yes,,https://de.wikipedia.org/wiki/Landtagswahl_in_Rheinland-Pfalz_2021
+core,Sachsen-Anhalt,ST,2021-06-06,AfD,20.8,23,97,yes,Second-strongest party.,https://de.wikipedia.org/wiki/Landtagswahl_in_Sachsen-Anhalt_2021
+core,Berlin,BE,2021-09-26,AfD,8.0,13,147,yes,Election annulled; repeated 2023.,https://de.wikipedia.org/wiki/Wahl_zum_Abgeordnetenhaus_von_Berlin_2021
+core,Mecklenburg-Vorpommern,MV,2021-09-26,AfD,16.7,14,79,yes,Second-strongest party.,https://de.wikipedia.org/wiki/Landtagswahl_in_Mecklenburg-Vorpommern_2021
+core,Saarland,SL,2022-03-27,AfD,5.7,3,51,pending (next 2027),,https://de.wikipedia.org/wiki/Landtagswahl_im_Saarland_2022
+core,Nordrhein-Westfalen,NW,2022-05-15,AfD,5.4,12,195,pending (next 2027),,https://de.wikipedia.org/wiki/Landtagswahl_in_Nordrhein-Westfalen_2022
+core,Niedersachsen,NI,2022-10-09,AfD,11.0,18,146,pending (next 2027),,https://de.wikipedia.org/wiki/Landtagswahl_in_Niedersachsen_2022
+core,Berlin,BE,2023-02-12,AfD,9.1,17,159,yes,Repeat election.,https://de.wikipedia.org/wiki/Wahl_zum_Abgeordnetenhaus_von_Berlin_2023
+core,Bayern,BY,2023-10-08,AfD,14.6,32,203,pending (next 2028),Third-strongest party.,https://de.wikipedia.org/wiki/Landtagswahl_in_Bayern_2023
+core,Hessen,HE,2023-10-08,AfD,18.4,28,133,pending (next 2028),Second-strongest party.,https://de.wikipedia.org/wiki/Landtagswahl_in_Hessen_2023
+core,Sachsen,SN,2024-09-01,AfD,30.6,40,120,pending (next 2029),"Second, one seat behind CDU; blocking minority (>1/3).",https://de.wikipedia.org/wiki/Landtagswahl_in_Sachsen_2024
+core,Thüringen,TH,2024-09-01,AfD,32.8,32,88,pending (next 2029),First far-right party to finish first in a Landtag election; blocking minority.,https://de.wikipedia.org/wiki/Landtagswahl_in_Thüringen_2024
+core,Brandenburg,BB,2024-09-22,AfD,29.2,30,88,pending (next 2029),Second-strongest party; blocking minority.,https://de.wikipedia.org/wiki/Landtagswahl_in_Brandenburg_2024
+core,Hamburg,HH,2025-03-02,AfD,7.5,10,121,pending (next 2030),,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Hamburg_2025
+core,Baden-Württemberg,BW,2026-03-08,AfD,18.8,35,157,pending (next 2031),Third-strongest party; share doubled vs 2021.,https://de.wikipedia.org/wiki/Landtagswahl_in_Baden-Württemberg_2026
+core,Rheinland-Pfalz,RP,2026-03-22,AfD,19.5,24,105,pending (next 2031),Best AfD result in a western state; third-strongest party.,https://de.wikipedia.org/wiki/Landtagswahl_in_Rheinland-Pfalz_2026
+core,Sachsen-Anhalt,ST,2026-09-06,AfD,43.8,39,83,pending (next 2031),Strongest party; 3 seats short of absolute majority (42); all 41 direct seats won by AfD.,https://de.wikipedia.org/wiki/Landtagswahl_in_Sachsen-Anhalt_2026
+core,Berlin,BE,2026-09-20,AfD,16.3,29,158,pending (next 2031),"Third-strongest party (Linke 25.7, CDU 18.8).",https://de.wikipedia.org/wiki/Wahl_zum_Abgeordnetenhaus_von_Berlin_2026
+core,Mecklenburg-Vorpommern,MV,2026-09-20,AfD,38.2,32,71,pending (next 2031),Strongest party; SPD 35.5; CDU out of the Landtag (4.9%).,https://de.wikipedia.org/wiki/Landtagswahl_in_Mecklenburg-Vorpommern_2026
+near_miss,Bayern,BY,1990-10-14,REP,4.9,0,,n/a (no seats),4.85%; best REP result in Bavaria.,https://de.wikipedia.org/wiki/Landtagswahl_in_Bayern_1990
+near_miss,Hamburg,HH,1993-09-19,REP,4.8,0,,n/a (no seats),DVU 2.8% at the same election.,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Hamburg_1993
+near_miss,Schleswig-Holstein,SH,1996-03-24,DVU,4.3,0,,n/a (no seats),DVU lost its 1992 seats.,https://de.wikipedia.org/wiki/Deutsche_Volksunion
+near_miss,Hamburg,HH,1997-09-21,DVU,4.98,0,,n/a (no seats),169 votes short of the threshold.,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Hamburg_1997
+near_miss,Baden-Württemberg,BW,2001-03-25,REP,4.4,0,,n/a (no seats),REP lost its BW seats after two terms.,https://de.wikipedia.org/wiki/Landtagswahl_in_Baden-Württemberg_2001
+near_miss,Sachsen-Anhalt,ST,2002-04-21,Schill-Partei (PRO),4.5,0,,n/a (no seats),Only Schill attempt outside Hamburg that came close.,https://de.wikipedia.org/wiki/Landtagswahl_in_Sachsen-Anhalt_2002
+near_miss,Bremen,HB,2003-05-25,Schill-Partei (PRO),4.4,0,,n/a (no seats),Below 5% in both Bremen and Bremerhaven.,https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_2003
+near_miss,Saarland,SL,2004-09-05,NPD,4.0,0,,n/a (no seats),,https://de.wikipedia.org/wiki/Nationaldemokratische_Partei_Deutschlands
+near_miss,Thüringen,TH,2009-08-30,NPD,4.3,0,,n/a (no seats),,https://de.wikipedia.org/wiki/Nationaldemokratische_Partei_Deutschlands
+near_miss,Sachsen-Anhalt,ST,2011-03-20,NPD,4.6,0,,n/a (no seats),'Schicksalswahl' campaign; failed.,https://de.wikipedia.org/wiki/Landtagswahl_in_Sachsen-Anhalt_2011
+near_miss,Hessen,HE,2013-09-22,AfD,4.1,0,,n/a (no seats),First AfD Landtag attempt.,https://de.wikipedia.org/wiki/Landtagswahl_in_Hessen_2013
+near_miss,Sachsen,SN,2014-08-31,NPD,4.95,0,,n/a (no seats),"Fewer than 900 votes short; ~13,000 voters lost to AfD.",https://de.wikipedia.org/wiki/Landtagswahl_in_Sachsen_2014
+near_miss,Schleswig-Holstein,SH,2022-05-08,AfD,4.4,0,,n/a (no seats),Only AfD loss of Landtag representation so far.,https://de.wikipedia.org/wiki/Landtagswahl_in_Schleswig-Holstein_2022
+near_miss,Berlin (West),BE,1954-12-05,DP,4.9,0,,n/a (no seats),Borderline party (national-conservative).,https://de.wikipedia.org/wiki/Deutsche_Partei
+borderline,Niedersachsen,NI,1947-04-20,DP (as NLP),17.7,27,149,"yes (1951 joint list NDU with CDU, 35 seats)","BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). Niedersächsische Landespartei, renamed DP 1947.",https://de.wikipedia.org/wiki/Landtagswahl_in_Niedersachsen_1947
+borderline,Bremen,HB,1947-10-12,DP,3.9,3,100,yes,"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). No threshold in 1947.",https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_1947
+borderline,Schleswig-Holstein,SH,1950-07-09,DP,9.6,7,69,"joint list 1954 (SH-Block with SHG 5.1%, 4 seats)","BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Landtagswahl_in_Schleswig-Holstein_1950
+borderline,Bremen,HB,1951-10-07,DP,14.7,16,100,yes,"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_1951
+borderline,Niedersachsen,NI,1955-04-24,DP,12.4,19,159,yes,"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Landtagswahl_in_Niedersachsen_1955
+borderline,Bremen,HB,1955-10-09,DP,16.6,18,100,yes,"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_1955
+borderline,Niedersachsen,NI,1959-04-19,DP,12.4,20,157,no (merged into GDP 1961; GDP 3.7% in 1963),"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). Merged into GDP 1961.",https://de.wikipedia.org/wiki/Landtagswahl_in_Niedersachsen_1959
+borderline,Bremen,HB,1959-10-11,DP,14.5,16,100,yes,"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_1959
+borderline,Bremen,HB,1963-09-29,DP (list incl. DRP),5.2,4,100,no (0.9% in 1967),"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). Last DP Landtag entry; its MPs (F. Thielen) co-founded the NPD in 1964.",https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_1963
+borderline,Württemberg-Baden,WB,1950-11-19,DG/BHE,14.7,16,100,yes (BW 1952),"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). Joint list of Deutsche Gemeinschaft and BHE.",https://de.wikipedia.org/wiki/Landtagswahl_in_Württemberg-Baden_1950
+borderline,Schleswig-Holstein,SH,1950-07-09,BHE,23.4,15,69,yes,"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). Best BHE result; in government.",https://de.wikipedia.org/wiki/Landtagswahl_in_Schleswig-Holstein_1950
+borderline,Bayern,BY,1950-11-26,BHE,12.3,26,204,yes,"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Landtagswahl_in_Bayern_1950
+borderline,Niedersachsen,NI,1951-05-06,BHE,14.9,21,158,yes,"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Landtagswahl_in_Niedersachsen_1951
+borderline,Bremen,HB,1951-10-07,BHE,5.6,2,100,no (2.9% in 1955),"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Bürgerschaftswahl_in_Bremen_1951
+borderline,Baden-Württemberg,BW,1952-03-09,BHE,6.3,6,121,yes,"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Landtagswahl_in_Baden-Württemberg_1952
+borderline,Hessen,HE,1954-11-28,GB/BHE,7.7,7,96,yes,"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). 1950: joint list with FDP.",https://de.wikipedia.org/wiki/Landtagswahl_in_Hessen_1954
+borderline,Bayern,BY,1954-11-28,GB/BHE,10.2,19,204,yes,"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Landtagswahl_in_Bayern_1954
+borderline,Schleswig-Holstein,SH,1954-09-12,GB/BHE,14.0,10,69,yes,"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Landtagswahl_in_Schleswig-Holstein_1954
+borderline,Niedersachsen,NI,1955-04-24,GB/BHE,11.0,17,159,yes,"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Landtagswahl_in_Niedersachsen_1955
+borderline,Baden-Württemberg,BW,1956-03-04,GB/BHE,6.3,7,120,yes,"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Landtagswahl_in_Baden-Württemberg_1956
+borderline,Hessen,HE,1958-11-23,GB/BHE,7.4,7,96,no (GDP 6.3% 1962 – seats as GDP),"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). 1962 successor GDP won 6.3%/6 seats in Hessen (not listed).",https://de.wikipedia.org/wiki/Landtagswahl_in_Hessen_1958
+borderline,Bayern,BY,1958-11-23,GB/BHE,8.6,17,204,"no (GDP 5.1% in 1962, no seats)","BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Landtagswahl_in_Bayern_1958
+borderline,Schleswig-Holstein,SH,1958-09-28,GB/BHE,6.9,5,69,no (GDP 1962),"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Landtagswahl_in_Schleswig-Holstein_1958
+borderline,Niedersachsen,NI,1959-04-19,GB/BHE,8.3,13,157,no (GDP 3.7% 1963),"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Landtagswahl_in_Niedersachsen_1959
+borderline,Baden-Württemberg,BW,1960-05-15,GB/BHE,6.6,7,121,no (GDP 1964),"BORDERLINE (national-conservative / expellee party, not far-right in the narrow sense). ",https://de.wikipedia.org/wiki/Landtagswahl_in_Baden-Württemberg_1960

@@ -1,0 +1,14 @@
+region,decade,mean_centre,n
+East (incl. Berlin from 1990),1990,67.5,18
+East (incl. Berlin from 1990),2000,55.4,12
+East (incl. Berlin from 1990),2010,46.4,12
+East (incl. Berlin from 1990),2020,39.4,10
+West,1940,72.4,10
+West,1950,70.1,29
+West,1960,83,23
+West,1970,89.4,30
+West,1980,85.7,28
+West,1990,79.2,26
+West,2000,73,23
+West,2010,62,22
+West,2020,53.9,13

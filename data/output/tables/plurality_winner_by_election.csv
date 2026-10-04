@@ -1,0 +1,259 @@
+name_en,year,region,party,pct
+Brandenburg,1990,East (incl. Berlin from 1990),spd,38.2
+Brandenburg,1994,East (incl. Berlin from 1990),spd,54.1
+Brandenburg,1999,East (incl. Berlin from 1990),spd,39.3
+Brandenburg,2004,East (incl. Berlin from 1990),spd,31.9
+Brandenburg,2009,East (incl. Berlin from 1990),spd,33
+Brandenburg,2014,East (incl. Berlin from 1990),spd,31.9
+Brandenburg,2019,East (incl. Berlin from 1990),spd,26.2
+Brandenburg,2024,East (incl. Berlin from 1990),spd,30.9
+Berlin,1950,West,spd,44.7
+Berlin,1954,West,spd,44.6
+Berlin,1958,West,spd,52.6
+Berlin,1963,West,spd,61.9
+Berlin,1967,West,spd,56.9
+Berlin,1971,West,spd,50.4
+Berlin,1975,West,cdu,43.9
+Berlin,1979,West,cdu,44.4
+Berlin,1981,West,cdu,48
+Berlin,1985,West,cdu,46.4
+Berlin,1989,West,cdu,37.7
+Berlin,1990,East (incl. Berlin from 1990),cdu,40.4
+Berlin,1995,East (incl. Berlin from 1990),cdu,37.4
+Berlin,1999,East (incl. Berlin from 1990),cdu,40.8
+Berlin,2001,East (incl. Berlin from 1990),spd,29.7
+Berlin,2006,East (incl. Berlin from 1990),spd,30.8
+Berlin,2011,East (incl. Berlin from 1990),spd,28.3
+Berlin,2016,East (incl. Berlin from 1990),spd,21.6
+Berlin,2021,East (incl. Berlin from 1990),spd,21.4
+Berlin,2023,East (incl. Berlin from 1990),cdu,28.2
+Berlin,2026,East (incl. Berlin from 1990),lin,25.7
+Baden-Württemberg,1952,West,cdu,36
+Baden-Württemberg,1956,West,cdu,42.6
+Baden-Württemberg,1960,West,cdu,39.5
+Baden-Württemberg,1964,West,cdu,46.2
+Baden-Württemberg,1968,West,cdu,44.2
+Baden-Württemberg,1972,West,cdu,52.9
+Baden-Württemberg,1976,West,cdu,56.7
+Baden-Württemberg,1980,West,cdu,53.4
+Baden-Württemberg,1984,West,cdu,51.9
+Baden-Württemberg,1988,West,cdu,49
+Baden-Württemberg,1992,West,cdu,39.6
+Baden-Württemberg,1996,West,cdu,41.3
+Baden-Württemberg,2001,West,cdu,44.8
+Baden-Württemberg,2006,West,cdu,44.2
+Baden-Württemberg,2011,West,cdu,39
+Baden-Württemberg,2016,West,gru,30.3
+Baden-Württemberg,2021,West,gru,32.6
+Baden-Württemberg,2026,West,gru,30.2
+Bavaria,1946,West,cdu,52.3
+Bavaria,1950,West,spd,28
+Bavaria,1954,West,cdu,38
+Bavaria,1958,West,cdu,45.6
+Bavaria,1962,West,cdu,47.5
+Bavaria,1966,West,cdu,48.1
+Bavaria,1970,West,cdu,56.4
+Bavaria,1974,West,cdu,62.1
+Bavaria,1978,West,cdu,59.1
+Bavaria,1982,West,cdu,58.3
+Bavaria,1986,West,cdu,55.8
+Bavaria,1990,West,cdu,54.9
+Bavaria,1994,West,cdu,52.8
+Bavaria,1998,West,cdu,52.9
+Bavaria,2003,West,cdu,60.7
+Bavaria,2008,West,cdu,43.4
+Bavaria,2013,West,cdu,47.7
+Bavaria,2018,West,cdu,37.2
+Bavaria,2023,West,cdu,37
+Bremen,1946,West,spd,47.6
+Bremen,1947,West,spd,41.7
+Bremen,1951,West,spd,39.1
+Bremen,1955,West,spd,47.8
+Bremen,1959,West,spd,54.9
+Bremen,1963,West,spd,54.7
+Bremen,1967,West,spd,46
+Bremen,1971,West,spd,55.3
+Bremen,1975,West,spd,48.8
+Bremen,1979,West,spd,49.4
+Bremen,1983,West,spd,51.3
+Bremen,1987,West,spd,50.5
+Bremen,1991,West,spd,38.8
+Bremen,1995,West,spd,33.4
+Bremen,1999,West,spd,42.6
+Bremen,2003,West,spd,42.3
+Bremen,2007,West,spd,36.7
+Bremen,2011,West,spd,38.6
+Bremen,2015,West,spd,32.8
+Bremen,2019,West,cdu,26.7
+Bremen,2023,West,spd,29.8
+Hesse,1946,West,spd,42.7
+Hesse,1950,West,spd,44.4
+Hesse,1954,West,spd,42.6
+Hesse,1958,West,spd,46.9
+Hesse,1962,West,spd,50.8
+Hesse,1966,West,spd,51
+Hesse,1970,West,spd,45.9
+Hesse,1974,West,cdu,47.3
+Hesse,1978,West,cdu,46
+Hesse,1982,West,cdu,45.6
+Hesse,1983,West,spd,46.2
+Hesse,1987,West,cdu,42.1
+Hesse,1991,West,spd,40.8
+Hesse,1995,West,cdu,39.2
+Hesse,1999,West,cdu,43.4
+Hesse,2003,West,cdu,48.8
+Hesse,2008,West,cdu,36.8
+Hesse,2009,West,cdu,37.2
+Hesse,2013,West,cdu,38.3
+Hesse,2018,West,cdu,27
+Hesse,2023,West,cdu,34.6
+Hamburg,1946,West,spd,43.1
+Hamburg,1949,West,spd,42.8
+Hamburg,1953,West,cdu,50
+Hamburg,1957,West,spd,53.9
+Hamburg,1961,West,spd,57.4
+Hamburg,1966,West,spd,59
+Hamburg,1970,West,spd,55.3
+Hamburg,1974,West,spd,45
+Hamburg,1978,West,spd,51.5
+Hamburg,1982,West,cdu,43.2
+Hamburg,1982,West,spd,51.3
+Hamburg,1986,West,cdu,41.9
+Hamburg,1987,West,spd,45
+Hamburg,1991,West,spd,48
+Hamburg,1993,West,spd,40.4
+Hamburg,1997,West,spd,36.2
+Hamburg,2001,West,spd,36.5
+Hamburg,2004,West,cdu,47.2
+Hamburg,2008,West,cdu,42.6
+Hamburg,2011,West,spd,48.4
+Hamburg,2015,West,spd,45.6
+Hamburg,2020,West,spd,39.2
+Hamburg,2025,West,spd,33.5
+Mecklenburg-Vorpommern,1990,East (incl. Berlin from 1990),cdu,38.3
+Mecklenburg-Vorpommern,1994,East (incl. Berlin from 1990),cdu,37.7
+Mecklenburg-Vorpommern,1998,East (incl. Berlin from 1990),spd,34.3
+Mecklenburg-Vorpommern,2002,East (incl. Berlin from 1990),spd,40.6
+Mecklenburg-Vorpommern,2006,East (incl. Berlin from 1990),spd,30.2
+Mecklenburg-Vorpommern,2011,East (incl. Berlin from 1990),spd,35.6
+Mecklenburg-Vorpommern,2016,East (incl. Berlin from 1990),spd,30.6
+Mecklenburg-Vorpommern,2021,East (incl. Berlin from 1990),spd,39.6
+Mecklenburg-Vorpommern,2026,East (incl. Berlin from 1990),afd,38.2
+Lower Saxony,1947,West,spd,43.4
+Lower Saxony,1951,West,spd,33.7
+Lower Saxony,1955,West,spd,35.2
+Lower Saxony,1959,West,spd,39.5
+Lower Saxony,1963,West,spd,44.9
+Lower Saxony,1967,West,spd,43.1
+Lower Saxony,1970,West,spd,46.3
+Lower Saxony,1974,West,cdu,48.8
+Lower Saxony,1978,West,cdu,48.7
+Lower Saxony,1982,West,cdu,50.7
+Lower Saxony,1986,West,cdu,44.3
+Lower Saxony,1990,West,spd,44.2
+Lower Saxony,1994,West,spd,44.3
+Lower Saxony,1998,West,spd,47.9
+Lower Saxony,2003,West,cdu,48.3
+Lower Saxony,2008,West,cdu,42.5
+Lower Saxony,2013,West,cdu,36
+Lower Saxony,2017,West,spd,36.9
+Lower Saxony,2022,West,spd,33.4
+North Rhine-Westphalia,1947,West,cdu,37.6
+North Rhine-Westphalia,1950,West,cdu,36.9
+North Rhine-Westphalia,1954,West,cdu,41.3
+North Rhine-Westphalia,1958,West,cdu,50.5
+North Rhine-Westphalia,1962,West,cdu,46.4
+North Rhine-Westphalia,1966,West,spd,49.5
+North Rhine-Westphalia,1970,West,cdu,46.3
+North Rhine-Westphalia,1975,West,cdu,47.1
+North Rhine-Westphalia,1980,West,spd,48.4
+North Rhine-Westphalia,1985,West,spd,52.1
+North Rhine-Westphalia,1990,West,spd,50
+North Rhine-Westphalia,1995,West,spd,46
+North Rhine-Westphalia,2000,West,spd,42.8
+North Rhine-Westphalia,2005,West,cdu,44.8
+North Rhine-Westphalia,2010,West,cdu,34.6
+North Rhine-Westphalia,2012,West,spd,39.1
+North Rhine-Westphalia,2017,West,cdu,33
+North Rhine-Westphalia,2022,West,cdu,35.7
+Rhineland-Palatinate,1947,West,cdu,47.2
+Rhineland-Palatinate,1951,West,cdu,39.2
+Rhineland-Palatinate,1955,West,cdu,46.8
+Rhineland-Palatinate,1959,West,cdu,48.4
+Rhineland-Palatinate,1963,West,cdu,44.4
+Rhineland-Palatinate,1967,West,cdu,46.7
+Rhineland-Palatinate,1971,West,cdu,50
+Rhineland-Palatinate,1975,West,cdu,53.9
+Rhineland-Palatinate,1979,West,cdu,50.1
+Rhineland-Palatinate,1983,West,cdu,51.9
+Rhineland-Palatinate,1987,West,cdu,45.1
+Rhineland-Palatinate,1991,West,spd,44.8
+Rhineland-Palatinate,1996,West,spd,39.8
+Rhineland-Palatinate,2001,West,spd,44.7
+Rhineland-Palatinate,2006,West,spd,45.6
+Rhineland-Palatinate,2011,West,spd,35.7
+Rhineland-Palatinate,2016,West,spd,36.2
+Rhineland-Palatinate,2021,West,spd,35.7
+Rhineland-Palatinate,2026,West,cdu,31
+Schleswig-Holstein,1947,West,spd,43.8
+Schleswig-Holstein,1950,West,spd,27.5
+Schleswig-Holstein,1954,West,spd,33.2
+Schleswig-Holstein,1958,West,cdu,44.4
+Schleswig-Holstein,1962,West,cdu,45
+Schleswig-Holstein,1967,West,cdu,46
+Schleswig-Holstein,1971,West,cdu,51.9
+Schleswig-Holstein,1975,West,cdu,50.4
+Schleswig-Holstein,1979,West,cdu,48.3
+Schleswig-Holstein,1983,West,cdu,49
+Schleswig-Holstein,1987,West,spd,45.2
+Schleswig-Holstein,1988,West,spd,54.8
+Schleswig-Holstein,1992,West,spd,46.2
+Schleswig-Holstein,1996,West,spd,39.8
+Schleswig-Holstein,2000,West,spd,43.1
+Schleswig-Holstein,2005,West,cdu,40.2
+Schleswig-Holstein,2009,West,cdu,31.5
+Schleswig-Holstein,2012,West,cdu,30.8
+Schleswig-Holstein,2017,West,cdu,32
+Schleswig-Holstein,2022,West,cdu,43.4
+Saarland,1947,West,cvp,51.2
+Saarland,1952,West,cvp,54.7
+Saarland,1955,West,cdu,25.4
+Saarland,1960,West,cdu,36.6
+Saarland,1965,West,cdu,42.7
+Saarland,1970,West,cdu,47.8
+Saarland,1975,West,cdu,49.1
+Saarland,1980,West,spd,45.4
+Saarland,1985,West,spd,49.2
+Saarland,1990,West,spd,54.4
+Saarland,1994,West,spd,49.4
+Saarland,1999,West,cdu,45.5
+Saarland,2004,West,cdu,47.5
+Saarland,2009,West,cdu,34.5
+Saarland,2012,West,cdu,35.2
+Saarland,2017,West,cdu,40.7
+Saarland,2022,West,spd,43.5
+Saxony,1990,East (incl. Berlin from 1990),cdu,53.8
+Saxony,1994,East (incl. Berlin from 1990),cdu,58.1
+Saxony,1999,East (incl. Berlin from 1990),cdu,56.9
+Saxony,2004,East (incl. Berlin from 1990),cdu,41.1
+Saxony,2009,East (incl. Berlin from 1990),cdu,40.2
+Saxony,2014,East (incl. Berlin from 1990),cdu,39
+Saxony,2019,East (incl. Berlin from 1990),cdu,32.1
+Saxony,2024,East (incl. Berlin from 1990),cdu,31.9
+Saxony-Anhalt,1990,East (incl. Berlin from 1990),cdu,39
+Saxony-Anhalt,1994,East (incl. Berlin from 1990),cdu,34.4
+Saxony-Anhalt,1998,East (incl. Berlin from 1990),spd,35.9
+Saxony-Anhalt,2002,East (incl. Berlin from 1990),cdu,37.3
+Saxony-Anhalt,2006,East (incl. Berlin from 1990),cdu,36.2
+Saxony-Anhalt,2011,East (incl. Berlin from 1990),cdu,32.5
+Saxony-Anhalt,2016,East (incl. Berlin from 1990),cdu,29.8
+Saxony-Anhalt,2021,East (incl. Berlin from 1990),cdu,37.1
+Saxony-Anhalt,2026,East (incl. Berlin from 1990),afd,43.8
+Thuringia,1990,East (incl. Berlin from 1990),cdu,45.4
+Thuringia,1994,East (incl. Berlin from 1990),cdu,42.6
+Thuringia,1999,East (incl. Berlin from 1990),cdu,51
+Thuringia,2004,East (incl. Berlin from 1990),cdu,43
+Thuringia,2009,East (incl. Berlin from 1990),cdu,31.2
+Thuringia,2014,East (incl. Berlin from 1990),cdu,33.5
+Thuringia,2019,East (incl. Berlin from 1990),lin,31
+Thuringia,2024,East (incl. Berlin from 1990),afd,32.8

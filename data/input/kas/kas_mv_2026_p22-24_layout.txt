@@ -1,0 +1,84 @@
+# Source: KAS, Wahlanalyse der Landtagswahl in Mecklenburg-Vorpommern am 20. September 2026 (Monitor Wahl- und Sozialforschung, September 2026), 54 pages.
+# Text extracted in-browser with pdf.js (layout reconstruction; cells separated by " | "). PDF could not be saved by curl (KAS WAF returns 403 to non-browser clients).
+=== PAGE 22 ===
+Konrad-Adenauer-Stiftung e. V.
+Monitor Wahl- und Sozialforschung  |  September 2026  |  22
+Landtagswahl in Mecklenburg-Vorpommern 2026
+Wahlverhalten in Bevölkerungsgruppen (Differenz zur Wahl 2021)
+CDU  |  SPD  |  FDP  |  Die Grünen  |  Die Linke  |  BSW  |  AfD
+%  |  Diff.  |  %  |  Diff.  |  %  |  Diff.  |  %  |  Diff.  |  %  |  Diff.  |  %  |  Diff.  |  %  |  Diff.
+Beruf/Tätigkeit
+Arbeiter/in  |  2  |  -8  |  27  |  -8  |  1  |  -4  |  2  |  -2  |  5  |  -5  |  4  |  53  |  +28
+Angestellte/r  |  4  |  -7  |  29  |  -8  |  1  |  -6  |  6  |  -1  |  8  |  -2  |  5  |  43  |  +25
+Beamter, Beamtin  |  13  |  -12  |  39  |  +15  |  1  |  -14  |  9  |  -1  |  5  |  +1  |  6  |  26  |  +8
+Selbstständige/r  |  11  |  -8  |  19  |  -5  |  2  |  -14  |  10  |  +1  |  3  |  -3  |  4  |  47  |  +25
+Rentner/in  |  6  |  -11  |  49  |  -1  |  1  |  -2  |  4  |  ±0  |  5  |  -6  |  4  |  30  |  +18
+Bildung
+Hoch  |  6  |  -10  |  38  |  +4  |  1  |  -7  |  11  |  ±0  |  9  |  -3  |  5  |  25  |  +14
+Mittel  |  3  |  -9  |  33  |  -10  |  1  |  -4  |  2  |  -1  |  5  |  -3  |  5  |  47  |  +26
+Niedrig  |  5  |  -7  |  35  |  -10  |  1  |  -2  |  2  |  -1  |  4  |  -6  |  3  |  46  |  +27
+Wirtschaftliche Lage
+Sehr gut / gut  |  6  |  -9  |  41  |  ±0  |  1  |  -6  |  7  |  ±0  |  6  |  -3  |  5  |  31  |  +17
+Weniger gut / schlecht  |  2  |  -5  |  19  |  -14  |  1  |  -2  |  2  |  -1  |  7  |  -4  |  6  |  59  |  +29
+Datenbasis: 20.786 Wählerinnen und Wähler
+Quelle: Infratest dimap, Exit-Poll-Befragung
+
+=== PAGE 23 ===
+Konrad-Adenauer-Stiftung e. V.
+Monitor Wahl- und Sozialforschung  |  September 2026  |  23
+Landtagswahl in Mecklenburg-Vorpommern 2026
+Wahlverhalten in Bevölkerungsgruppen (Differenz zur Wahl 2021)
+SPD  |  AfD  |  CDU  |  Die Linke  |  Die Grünen  |  FDP  |  BSW
+%  |  Diff.  |  %  |  Diff.  |  %  |  Diff.  |  %  |  Diff.  |  %  |  Diff.  |  %  |  Diff.  |  %  |  Diff.
+GESCHLECHT
+Männlich  |  31  |  -4  |  44  |  +23  |  5  |  -8  |  6  |  -4  |  6  |  -1  |  1  |  -5  |  4
+Weiblich  |  39  |  -3  |  33  |  +20  |  4  |  -9  |  7  |  -2  |  6  |  -1  |  1  |  -5  |  6
+ALTER
+16-29 Jahre  |  22  |  +2  |  37  |  +19  |  2  |  -6  |  19  |  +8  |  8  |  -6  |  2  |  -10  |  5
+30-44 Jahre  |  28  |  -2  |  43  |  +20  |  3  |  -9  |  7  |  -2  |  9  |  +2  |  1  |  -5  |  4
+45-59 Jahre  |  31  |  -4  |  45  |  +26  |  5  |  -9  |  4  |  -5  |  6  |  -1  |  1  |  -6  |  5
+Ab 60 Jahre  |  47  |  -7  |  32  |  +22  |  6  |  -9  |  4  |  -7  |  3  |  -1  |  1  |  -2  |  5
+ALTER+GESCHLECHT
+16-29 Jahre Mann  |  20  |  +2  |  43  |  +23  |  2  |  -6  |  14  |  +2  |  7  |  -6  |  2  |  -10  |  4
+16-29 Jahre Frau  |  24  |  +1  |  29  |  +15  |  2  |  -6  |  24  |  +13  |  9  |  -5  |  1  |  -10  |  6
+30-44 Jahre Mann  |  25  |  -1  |  47  |  +19  |  3  |  -10  |  7  |  -2  |  9  |  +2  |  1  |  -5  |  3
+30-44 Jahre Frau  |  31  |  -3  |  39  |  +20  |  3  |  -8  |  7  |  -2  |  9  |  +2  |  1  |  -6  |  6
+45-59 Jahre Mann  |  27  |  -7  |  51  |  +28  |  6  |  -7  |  4  |  -5  |  6  |  -1  |  1  |  -7  |  4
+45-59 Jahre Frau  |  36  |  -2  |  39  |  +24  |  4  |  -10  |  4  |  -6  |  7  |  -1  |  1  |  -6  |  6
+Ab 60 Jahre Mann  |  42  |  -7  |  37  |  +23  |  7  |  -8  |  4  |  -9  |  4  |  -1  |  1  |  -3  |  5
+Ab 60 Jahre Frau  |  52  |  -5  |  27  |  +20  |  6  |  -10  |  4  |  -6  |  3  |  ±0  |  1  |  -2  |  5
+SCHULBILDUNG
+Hauptschule  |  36  |  -12  |  49  |  +28  |  4  |  -8  |  4  |  -2  |  1  |  -1  |  0  |  -4  |  3
+Mittlere Reife  |  32  |  -9  |  49  |  +28  |  3  |  -9  |  5  |  -3  |  3  |  -1  |  1  |  -5  |  5
+Hochschulreife  |  37  |  +4  |  30  |  +16  |  4  |  -9  |  9  |  -3  |  8  |  -2  |  2  |  -6  |  5
+Hochschule, Uni  |  42  |  +7  |  20  |  +13  |  7  |  -9  |  8  |  -7  |  13  |  +1  |  1  |  -6  |  6
+ALTER+SCHULBILDUNG
+16-34 Jahre Hauptschule/Mittlere Reife  |  16  |  -7  |  57  |  +26  |  2  |  -7  |  11  |  +2  |  3  |  -2  |  1  |  -7  |  5
+16-34 Jahre Hochschulreife/-abschluss  |  33  |  +7  |  22  |  +11  |  2  |  -5  |  17  |  +4  |  13  |  -3  |  3  |  -9  |  5
+35-59 Jahre Hauptschule/Mittlere Reife  |  25  |  -10  |  56  |  +32  |  3  |  -10  |  4  |  -3  |  3  |  -1  |  1  |  -6  |  5
+35-59 Jahre Hochschulreife/-abschluss  |  37  |  +7  |  28  |  +15  |  6  |  -10  |  7  |  -4  |  13  |  ±0  |  1  |  -7  |  5
+Ab 60 Jahre Hauptschule/Mittlere Reife  |  46  |  -12  |  38  |  +25  |  5  |  -10  |  3  |  -5  |  2  |  -1  |  1  |  -2  |  5
+Ab 60 Jahre Hochschulreife/-abschluss  |  48  |  +2  |  24  |  +16  |  7  |  -9  |  6  |  -12  |  6  |  ±0  |  1  |  -2  |  7
+Quelle: Forschungsgruppe Wahlen: Befragung von 17.727 Wähler/innen am Wahltag. Vorläufige Ergebnisse. BSW 2021 nicht angetreten
+
+=== PAGE 24 ===
+Konrad-Adenauer-Stiftung e. V.
+Monitor Wahl- und Sozialforschung  |  September 2026  |  24
+Landtagswahl in Mecklenburg-Vorpommern 2026
+Wahlverhalten in Bevölkerungsgruppen (Differenz zur Wahl 2021)
+SPD  |  AfD  |  CDU  |  Die Linke  |  Die Grünen  |  FDP  |  BSW
+%  |  Diff.  |  %  |  Diff.  |  %  |  Diff.  |  %  |  Diff.  |  %  |  Diff.  |  %  |  Diff.  |  %  |  Diff.
+BERUFSGRUPPE
+Arbeiter  |  35  |  -7  |  44  |  +24  |  4  |  -7  |  6  |  -3  |  3  |  -1  |  1  |  -3  |  4
+Angestellte  |  36  |  -3  |  36  |  +21  |  4  |  -8  |  7  |  -4  |  7  |  ±0  |  1  |  -6  |  5
+Beamte  |  36  |  +1  |  25  |  +11  |  12  |  -8  |  5  |  -5  |  12  |  +4  |  2  |  -4  |  5
+Selbstständige  |  27  |  +3  |  39  |  +20  |  11  |  -8  |  5  |  -5  |  9  |  -1  |  1  |  -11  |  5
+GEWERKSCHAFTSMITGLIED
+Mitglied  |  39  |  34  |  4  |  8  |  7  |  1  |  5
+Kein Mitglied  |  34  |  38  |  5  |  7  |  6  |  1  |  5
+RELIGIONSZUGEHÖRIGKEIT
+Katholisch  |  33  |  31  |  14  |  4  |  9  |  1  |  4
+Evangelisch  |  40  |  31  |  10  |  5  |  6  |  1  |  4
+Keine  |  34  |  41  |  3  |  7  |  5  |  1  |  5
+Quelle: Forschungsgruppe Wahlen: Befragung von 17.727 Wähler/innen am Wahltag. Vorläufige Ergebnisse. BSW 2021 nicht angetreten. Konfession und Gewerkschaftsmitgliedschaft wurden 2021
+nicht erhoben.
