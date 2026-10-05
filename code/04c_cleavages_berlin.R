@@ -97,8 +97,8 @@ gap <- d |> mutate(left26 = SPD + Greens + Left, left23 = SPD23 + Greens23 + Lef
                                 afd26 = weighted.mean(AfD, valid), afd23 = weighted.mean(AfD23, valid, na.rm = TRUE), .groups = "drop")
 print(gap)
 
-# ---- 4. map: Linke and AfD 2026 with the Ring ---------------------------------------------
-m <- g |> left_join(d |> select(bwb, Left, AfD, CDU), by = "bwb")
+# ---- 4. maps: Linke, AfD, CDU, Greens 2026 with the Ring (2x2) ---------------------------------------------
+m <- g |> left_join(d |> select(bwb, Left, AfD, CDU, Greens), by = "bwb")
 ring_line <- st_cast(ring, "MULTILINESTRING")
 map_one <- function(var, title, hi, lims) {
   ggplot() + geom_sf(data = m, aes(fill = .data[[var]]), colour = NA) +
@@ -107,10 +107,11 @@ map_one <- function(var, title, hi, lims) {
     labs(title = title) + theme_void(base_family = "Fira Sans") +
     theme(plot.title = element_text(face = "bold", size = 14, hjust = .5), legend.position = "bottom", legend.key.width = unit(1.4, "cm"), legend.key.height = unit(.3, "cm"))
 }
-p22 <- map_one("Left", "Die Linke, 2026", "#BE3075", c(0, 50)) + map_one("AfD", "AfD, 2026", "#009EE0", c(0, 40)) + map_one("CDU", "CDU, 2026", "#000000", c(0, 40)) +
+p22 <- (map_one("Left", "Die Linke", "#BE3075", c(0, 50)) + map_one("AfD", "AfD", "#009EE0", c(0, 40))) /
+       (map_one("CDU", "CDU", "#000000", c(0, 40)) + map_one("Greens", "Greens", "#46962b", c(0, 40))) +
   plot_annotation(title = "Berlin 2026 by postal-vote district. Dashed line: the S-Bahn-Ring",
                   theme = theme(plot.title = element_text(face = "bold", size = 18, family = "Fira Sans"),
                                 plot.caption = element_text(colour = "#888888", size = 9, hjust = 0, family = "Fira Sans"), plot.background = element_rect(fill = "white", colour = NA)))
-ggsave("../figures/04_berlin_map.png", p22, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
+ggsave("../figures/04_berlin_map.png", p22, width = 9, height = 9, dpi = 200, device = agg_png, bg = "white")
 
 cat("done\n")

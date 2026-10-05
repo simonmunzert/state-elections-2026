@@ -32,6 +32,7 @@ output:
 .section-no { display: block; font-size: 4.5rem; font-weight: 700; color: #ff0000; line-height: 1; margin-top: -40px; margin-bottom: 110px; }
 .fig { float: left; width: 70%; margin-top: -8px; }
 .fig img { width: 100%; height: auto; }
+.fig.sq { width: 46%; margin-left: 10%; }
 :root { --ta-font: 'Nothing You Could Do', cursive; }   /* take-aways heading font: Caveat | Kalam | Patrick Hand | Architects Daughter | Handlee | Covered By Your Grace */
 .notes { position: absolute; right: 0.8em; width: 25%; top: 60%; margin: 0; }
 .notes .ta { font-family: var(--ta-font); font-size: 2rem; font-weight: 600; color: #000; margin: 0 0 4px 0; line-height: 1; }
@@ -305,6 +306,21 @@ class: inverse, center, middle
 ---
 # Berlin: “The Ring is the new Wall”
 
+.fig.sq[<img src="pics/analysis/04_berlin_map.png">]
+
+.notes[
+<div class="ta">Take-aways</div>
+
+- Left bloc inside the S-Bahn-Ring: <b style="color:#cc0065">67%</b> East, <b style="color:#cc0065">68%</b> West. Outside: 45% East, 47% West
+- The AfD still carries the old border: 25% East outside, 16% West outside
+- The CDU remains strong in the South-West and North-West
+]
+
+<div class="src">Data: <a href="https://www.wahlen-berlin.de/wahlen/BE2026/AFSPRAES/agh/downloads.html">Landeswahlleiterin Berlin / AfS Berlin-Brandenburg</a>, <a href="https://gdi.berlin.de/">gdi.berlin.de</a>, OpenStreetMap, own compilation. Inspired by: <a href="https://interaktiv.tagesspiegel.de/lab/der-berliner-mamdani-effekt-jung-migrantisch-zentrumsnah-wo-die-linke-stark-geworden-ist/">Tagesspiegel / Julius Kölzer</a>.</div>
+
+---
+# Berlin: “The Ring is the new Wall”
+
 .fig[<img src="pics/analysis/04_berlin_ring.png">]
 
 .notes[
@@ -312,29 +328,16 @@ class: inverse, center, middle
 
 - Left bloc inside the S-Bahn-Ring: <b style="color:#cc0065">67%</b> East, <b style="color:#cc0065">68%</b> West. Outside: 45% East, 47% West
 - The AfD still carries the old border: 25% East outside, 16% West outside
-- The SPD is the last "West Berlin" party
+- The CDU remains strong in the South-West and North-West
 ]
 
 <div class="src">Data: <a href="https://www.wahlen-berlin.de/wahlen/BE2026/AFSPRAES/agh/downloads.html">Landeswahlleiterin Berlin / AfS Berlin-Brandenburg</a>, <a href="https://gdi.berlin.de/">gdi.berlin.de</a>, OpenStreetMap, own compilation. Inspired by: <a href="https://interaktiv.tagesspiegel.de/lab/der-berliner-mamdani-effekt-jung-migrantisch-zentrumsnah-wo-die-linke-stark-geworden-ist/">Tagesspiegel / Julius Kölzer</a>.</div>
 
 
----
-# Berlin 2026 by postal-vote district
-
-.fig[<img src="pics/analysis/04_berlin_map.png">]
-
-.notes[
-<div class="ta">Take-aways</div>
-
-- 1,572 postal-vote districts, Urnen and Brief votes combined
-- Die Linke peaks at <b style="color:#cc0065">36%</b> two to six km from the Brandenburg Gate; the AfD rises from 7% inside to 26% on the edge
-- The CDU is strong in Mitte and in the outer districts, weak in between
-]
-
-<div class="src">Data: <a href="https://www.wahlen-berlin.de/wahlen/BE2026/AFSPRAES/agh/downloads.html">Landeswahlleiterin Berlin / AfS Berlin-Brandenburg</a>, <a href="https://gdi.berlin.de/">gdi.berlin.de</a>, OpenStreetMap, own compilation. Inspired by: <a href="https://interaktiv.tagesspiegel.de/lab/der-berliner-mamdani-effekt-jung-migrantisch-zentrumsnah-wo-die-linke-stark-geworden-ist/">Tagesspiegel / Julius Kölzer</a>.</div>
-
 
 ---
+exclude: true
+
 # Data journalism and researchers did the heavy lifting
 
 .jl[
@@ -363,7 +366,6 @@ class: inverse, center, middle
 <div class="person"><img src="pics/people/armin-schaefer.jpg"><b>Armin Schäfer</b><a href="https://link.springer.com/chapter/10.1007/978-3-658-42694-1_4">Nichtwähler und die AfD</a></div>
 </div>
 ]
-
 
 ---
 # Do your own research! The data are at your disposal
