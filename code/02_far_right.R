@@ -105,20 +105,23 @@ afd <- tribble(
   ~state, ~prev_ltw, ~btw25, ~ltw26,
   "Saxony-Anhalt", 20.8, 37.1, 43.8,
   "Mecklenburg-Vorpommern", 16.7, 35.0, 38.2,
-  "Berlin", 9.1, 15.2, 16.3
+  "Berlin", 9.1, 15.2, 16.3,
+  "Rhineland-Palatinate", 8.3, 20.1, 19.5,
+  "Baden-Württemberg", 9.7, 19.8, 18.8
 ) |> pivot_longer(-state, names_to = "election", values_to = "pct") |>
   mutate(election = factor(election, levels = c("prev_ltw", "btw25", "ltw26"),
                            labels = c("previous state election (2021/23)", "federal election Feb 2025 (state result)", "state election 2026")),
-         state = factor(state, levels = c("Berlin", "Mecklenburg-Vorpommern", "Saxony-Anhalt")))
+         state = factor(state, levels = c("Baden-Württemberg", "Rhineland-Palatinate", "Berlin", "Mecklenburg-Vorpommern", "Saxony-Anhalt")))
 write_csv(afd, "../data/output/tables/afd_vs_btw25.csv")
 p12 <- ggplot(afd, aes(pct, state)) +
   geom_line(aes(group = state), colour = "#cccccc", linewidth = 2) +
   geom_point(aes(colour = election), size = 6) +
-  geom_text(aes(label = pct, colour = election, vjust = if_else(election == levels(election)[2], 2.3, -1.3)), family = "Fira Sans", size = 4.2, show.legend = FALSE) +
+  geom_text(aes(label = pct, colour = election, vjust = if_else(election == levels(election)[2], 2.4, -1.4),
+                hjust = case_when(election == levels(election)[2] ~ 1.1, election == levels(election)[3] ~ -0.1, TRUE ~ 0.5)), family = "Fira Sans", size = 4.2, show.legend = FALSE) +
   scale_colour_manual(values = c("#bbbbbb", "#555555", "#009EE0")) +
   scale_x_continuous(labels = \(x) paste0(x, "%"), limits = c(0, 50), breaks = seq(0, 50, 10)) +
   labs(title = "The AfD surge is smaller than it looks",
-       subtitle = "AfD vote share: gains of +23, +21.5 and +7 points vs. the previous state election shrink to +6.7, +3.2 and +1.1 vs. the 2025 federal election.", x = NULL, y = NULL) +
+       subtitle = "AfD vote share: big gains vs. the previous state election, small gains or losses vs. the federal election", x = NULL, y = NULL) +
   theme_sm(15) + theme(panel.grid.major.y = element_blank()) + guides(colour = guide_legend(override.aes = list(size = 4)))
 ggsave("../figures/02_afd_vs_btw25.png", p12, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
 

@@ -1,7 +1,7 @@
 ###########################################################
-# 04a: Finding 4. Age and geography are defining cleavages: age and education
+# 03a: Finding 3. Age and geography are defining cleavages: age and education
 # Vote by age group and by education, exit polls Sept 2026 (infratest dimap via KAS).
-# Output: figures 04_age.png, 04_education.png
+# Output: figures 03_age.png, 04_education.png
 ###########################################################
 
 source("_theme.R")
@@ -45,7 +45,7 @@ p10 <- ggplot(age, aes(age, pct, colour = party, group = party)) +
        subtitle = "Vote share by age group, exit polls (infratest dimap / ARD). CDU and SPD peak among the over-70s, the AfD at 35 to 59.",
        x = NULL, y = NULL) +
   theme_sm(15) + theme(panel.spacing.x = unit(1.5, "lines"))
-ggsave("../figures/04_age.png", p10, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
+ggsave("../figures/03_age.png", p10, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
 
 
 # ---- 2. vote by education group (infratest dimap exit polls via KAS Wahlanalysen) ----
@@ -72,6 +72,6 @@ p_edu <- ggplot(edu, aes(group, pct, colour = party, group = party)) +
        subtitle = "Vote share by formal education (low / medium / high), exit polls (infratest dimap / ARD)",
        x = "formal education", y = NULL) +
   theme_sm(15) + theme(panel.spacing.x = unit(1.5, "lines"))
-ggsave("../figures/04_education.png", p_edu, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
+ggsave("../figures/03_education.png", p_edu, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
 
 cat("done\n")

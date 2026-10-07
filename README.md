@@ -25,10 +25,10 @@ cd code && for f in 0*.R; do LANG=en_US.UTF-8 Rscript "$f"; done
 | `00_data_state_elections.R` | data | scrapes all 257 state elections 1946-2026 from wahlrecht.de (vote shares, seats, turnout, harmonised party codes, far-right flag); adds Hamburg 2025 by hand |
 | `01_centre.R` | 1. The centre is not cracking | 2026 results at a glance, CDU/CSU+SPD share, effective number of parties, swings, plurality winners |
 | `02_far_right.R` | 2. Far right: not new, but stronger | far-right parties in Landtage 1946-2026 (timeline, strength, re-entry), AfD by state election, AfD vs. federal 2025 |
-| `03_turnout.R` | 3. Turnout is back | turnout 1946-2026, net gains from non-voters (infratest dimap), turnout persistence after surges |
-| `04a_cleavages_age_education.R` | 4. Age and geography | vote by age and by education (exit polls via KAS) |
-| `04b_cleavages_urban_rural.R` | 4. Age and geography | municipality-level results (GERDA, MV file) by size and density |
-| `04c_cleavages_berlin.R` | 4. Age and geography | Berlin 2026 by distance to the centre, inside/outside the S-Bahn-Ring, maps |
+| `03a_cleavages_age_education.R` | 3. Age and geography | vote by age and by education (exit polls via KAS) |
+| `03b_cleavages_urban_rural.R` | 3. Age and geography | municipality-level results (GERDA, MV file) by size and density |
+| `03c_cleavages_berlin.R` | 3. Age and geography | Berlin 2026 by distance to the centre, inside/outside the S-Bahn-Ring, maps |
+| `04_turnout.R` | 4. Turnout is back | turnout 1946-2026, net gains from non-voters (infratest dimap), turnout persistence after surges |
 | `05_bonus_forecasts.R` | bonus | zweitstimme.org frozen forecasts vs. results |
 
 Rendering the deck from the command line needs RStudio's pandoc:

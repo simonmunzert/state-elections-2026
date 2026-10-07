@@ -1,7 +1,7 @@
 ###########################################################
-# 04c: Finding 4. Age and geography: Berlin, centre vs. periphery
+# 03c: Finding 3. Age and geography: Berlin, centre vs. periphery
 # Berlin 2026 precinct results, 2023 on 2026 precincts, geometries and the S-Bahn-Ring.
-# Output: figures 04_berlin_*.png, tables berlin_*.csv
+# Output: figures 03_berlin_*.png, tables berlin_*.csv
 ###########################################################
 
 source("_theme.R")
@@ -62,7 +62,7 @@ p20 <- (pa | pb) + plot_annotation(
   subtitle = "1,572 postal-vote districts (Urnen + Brief), grouped by the distance of their centroid from the Brandenburg Gate; vote-weighted means",
   theme = theme(plot.title = element_text(face = "bold", size = 18, family = "Fira Sans"), plot.subtitle = element_text(colour = "#555555", family = "Fira Sans"),
                 plot.caption = element_text(colour = "#888888", size = 9, hjust = 0, family = "Fira Sans"), plot.background = element_rect(fill = "white", colour = NA)))
-ggsave("../figures/04_berlin_distance.png", p20, width = 15, height = 6.5, dpi = 200, device = agg_png, bg = "white")
+ggsave("../figures/03_berlin_distance.png", p20, width = 15, height = 6.5, dpi = 200, device = agg_png, bg = "white")
 
 # ---- 2. "The Ring is the new Wall": 2x2 East/West x inside/outside --------------------------
 cell <- d |> group_by(ew_lab, ring_lab) |>
@@ -80,7 +80,7 @@ p21 <- ggplot(cl, aes(pct, fct_rev(cellname), colour = party)) +
   labs(title = "The Ring is the new Wall: inside vs. outside matters more than East vs. West",
        subtitle = "Vote shares 2026 in the four combinations of East/West Berlin and inside/outside the S-Bahn-Ring (vote-weighted)", x = NULL, y = NULL) +
   theme_sm(15) + theme(panel.grid.major.y = element_blank()) + guides(colour = guide_legend(override.aes = list(size = 4)))
-ggsave("../figures/04_berlin_ring.png", p21, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
+ggsave("../figures/03_berlin_ring.png", p21, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
 
 # ---- 3. variance decomposition: East/West vs. distance -----------------------------------
 vd <- map_dfr(c("Left", "AfD", "CDU", "Greens", "SPD"), function(p) {
@@ -112,6 +112,6 @@ p22 <- (map_one("Left", "Die Linke", "#BE3075", c(0, 50)) + map_one("AfD", "AfD"
   plot_annotation(title = "Berlin 2026 by postal-vote district. Dashed line: the S-Bahn-Ring",
                   theme = theme(plot.title = element_text(face = "bold", size = 18, family = "Fira Sans"),
                                 plot.caption = element_text(colour = "#888888", size = 9, hjust = 0, family = "Fira Sans"), plot.background = element_rect(fill = "white", colour = NA)))
-ggsave("../figures/04_berlin_map.png", p22, width = 9, height = 9, dpi = 200, device = agg_png, bg = "white")
+ggsave("../figures/03_berlin_map.png", p22, width = 9, height = 9, dpi = 200, device = agg_png, bg = "white")
 
 cat("done\n")

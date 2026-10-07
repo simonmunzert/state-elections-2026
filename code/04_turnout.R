@@ -1,8 +1,8 @@
 ###########################################################
-# 03: Finding 3. Turnout is back
+# 04: Finding 4. Turnout is back
 # Turnout at state elections 1946-2026, net gains from non-voters 2026 (infratest dimap),
 # turnout persistence after surges (does high mobilisation hold?).
-# Output: figures 03_*.png, tables in ../data/output/tables/
+# Output: figures 04_*.png, tables in ../data/output/tables/
 ###########################################################
 
 source("_theme.R")
@@ -24,7 +24,7 @@ p5 <- ggplot(turn, aes(date, turnout, colour = region)) +
   labs(title = "Turnout is back. The East now votes more than the West.",
        subtitle = "Turnout at every state election, 1946-2026", x = NULL, y = NULL) +
   theme_sm()
-save_fig(p5, "03_turnout.png", 12, 7)
+save_fig(p5, "04_turnout.png", 12, 7)
 
 
 # ---- 2. net gains from former non-voters (ARD/infratest Wählerwanderung, thousands) ------
@@ -48,7 +48,7 @@ p11 <- ggplot(flows, aes(nonvoters, fct_rev(party), fill = party)) +
        subtitle = "Net gains from former non-voters, in thousands (ARD / infratest dimap vote-flow analysis). Turnout: +17.5, +11.3, +7.3 points.",
        x = NULL, y = NULL) +
   theme_sm(15) + theme(panel.grid.major.y = element_blank(), panel.spacing.x = unit(2, "lines"))
-ggsave("../figures/03_nonvoter_flows.png", p11, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
+ggsave("../figures/04_nonvoter_flows.png", p11, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
 
 
 # ---- turnout persistence: does high mobilisation hold? ----
@@ -81,7 +81,7 @@ p13 <- ggplot(turn |> filter(!is.na(d_now), !is.na(d_next)), aes(d_now, d_next))
                           sum(!is.na(turn$d_now) & !is.na(turn$d_next)), coef(fit)[2]),
        x = "turnout change at this election", y = "turnout change at the next election") +
   theme_sm()
-ggsave("../figures/03_turnout_persistence.png", p13, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
+ggsave("../figures/04_turnout_persistence.png", p13, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
 
 # ---- 2. what happened after the biggest surges? ------------------------------
 surges <- turn |> filter(d_now >= 7) |> arrange(desc(d_now)) |>
@@ -103,6 +103,6 @@ p14 <- ggplot(sp, aes(t, lab)) +
   labs(title = "What happened after the biggest turnout surges",
        subtitle = "All state elections with a turnout gain of 7 points or more since 1946 (2026 cases: next election pending)", x = NULL, y = NULL) +
   theme_sm() + theme(panel.grid.major.y = element_blank())
-ggsave("../figures/03_turnout_after_surges.png", p14, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
+ggsave("../figures/04_turnout_after_surges.png", p14, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
 
 cat("done\n")

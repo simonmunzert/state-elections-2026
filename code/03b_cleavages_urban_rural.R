@@ -1,7 +1,7 @@
 ###########################################################
-# 04b: Finding 4. Age and geography: the urban-rural divide
+# 03b: Finding 3. Age and geography: the urban-rural divide
 # Municipality-level results (GERDA; Landeswahlleitung MV for MV 2026) by population size and density.
-# Output: figures 04_urban_rural_*.png, table urban_rural_by_size.csv
+# Output: figures 03_urban_rural_*.png, table urban_rural_by_size.csv
 ###########################################################
 
 source("_theme.R")
@@ -65,7 +65,7 @@ p15 <- ggplot(by_size, aes(size, afd, colour = label, group = label)) +
        subtitle = "AfD vote share by municipality population (classes), eligible-voter weighted. East German states in pink, West in grey/black.",
        x = "municipality population", y = NULL) +
   theme_sm()
-ggsave("../figures/04_urban_rural_afd_by_size.png", p15, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
+ggsave("../figures/03_urban_rural_afd_by_size.png", p15, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
 
 # ---- 2. scatter: density vs AfD share, per state ------------------------------
 cors <- m |> group_by(label) |> summarise(r = cor(log10(density), afd, use = "complete.obs"), n = n()) |> mutate(txt = sprintf("r = %.2f (n = %d)", r, n))
@@ -82,7 +82,7 @@ p16 <- ggplot(m, aes(density, afd)) +
        subtitle = "Each dot = one municipality (size = eligible voters); line = voter-weighted loess. r = correlation with log density.",
        x = "inhabitants per km² (log scale)", y = NULL) +
   theme_sm(14)
-ggsave("../figures/04_urban_rural_density.png", p16, width = 15, height = 8, dpi = 200, device = agg_png, bg = "white")
+ggsave("../figures/03_urban_rural_density.png", p16, width = 15, height = 8, dpi = 200, device = agg_png, bg = "white")
 
 # ---- 3. all parties by size, Saxony-Anhalt and MV 2026 -------------------------
 party_cols <- c(CDU = "#000000", SPD = "#E3000F", Greens = "#46962b", Left = "#BE3075", AfD = "#009EE0", BSW = "#7B2A7A")
@@ -101,6 +101,6 @@ p17 <- ggplot(ps, aes(size, pct, colour = party, group = party)) +
   labs(title = "Only the AfD has a steep rural gradient. The Greens are its mirror image.",
        subtitle = "Vote share by municipality population, 2026 state elections (voter-weighted)", x = "municipality population", y = NULL) +
   theme_sm(14)
-ggsave("../figures/04_urban_rural_parties_2026.png", p17, width = 14, height = 6.5, dpi = 200, device = agg_png, bg = "white")
+ggsave("../figures/03_urban_rural_parties_2026.png", p17, width = 14, height = 6.5, dpi = 200, device = agg_png, bg = "white")
 
 cat("done\n")

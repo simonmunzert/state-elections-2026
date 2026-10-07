@@ -32,9 +32,13 @@ output:
 .section-no { display: block; font-size: 4.5rem; font-weight: 700; color: #ff0000; line-height: 1; margin-top: -40px; margin-bottom: 110px; }
 .fig { float: left; width: 70%; margin-top: -8px; }
 .fig img { width: 100%; height: auto; }
+.figwide { width: 85%; margin: -8px auto 0 auto; }
+.figwide img { display: block; width: 80%; height: auto; margin: 0 auto; }
 .fig.sq { width: 46%; margin-left: 10%; }
 :root { --ta-font: 'Nothing You Could Do', cursive; }   /* take-aways heading font: Caveat | Kalam | Patrick Hand | Architects Daughter | Handlee | Covered By Your Grace */
 .notes { position: absolute; right: 0.8em; width: 25%; top: 60%; margin: 0; }
+.formula { position: absolute; right: 0.8em; width: 25%; top: 20%; font-size: 85%; line-height: 1.35; }
+.formula .mjx-chtml, .formula mjx-container { font-size: 120% !important; }
 .notes .ta { font-family: var(--ta-font); font-size: 2rem; font-weight: 600; color: #000; margin: 0 0 4px 0; line-height: 1; }
 .notes ul { margin-top: 0; }
 .notes li { font-size: 78%; line-height: 1.35; margin-bottom: 10px; }
@@ -80,15 +84,7 @@ ul li::before {
 
 # 2026: five state elections, five different outcomes
 
-.fig[<img src="pics/analysis/01_results_2026.png">]
-
-.notes[
-<div class="ta">Take-aways</div>
-
-- Five elections, <b style="color:#cc0065">four different winners</b>: Greens, CDU, AfD, Linke, AfD
-- <b style="color:#cc0065">The CDU drops out of a Landtag</b> (MV) for the first time in history
-- <b style="color:#cc0065">FDP out everywhere</b>, BSW in only in Saxony-Anhalt
-]
+.figwide[<img src="pics/analysis/01_results_2026.png">]
 
 <div class="src">Data: <a href="https://www.wahlrecht.de/ergebnisse/">wahlrecht.de</a>, own compilation. Berlin and Mecklenburg-Vorpommern preliminary results.</div>
 
@@ -123,6 +119,14 @@ class: inverse, center, middle
 
 .fig[<img src="pics/analysis/01_fragmentation_enp.png">]
 
+.formula[
+<b>Effective number of parties</b> (Laakso & Taagepera 1979)
+
+$$N = \frac{1}{\sum_{i=1}^{n} s_i^2}$$
+
+where $s_i$ is party $i$'s share of seats
+]
+
 .notes[
 <div class="ta">Take-aways</div>
 
@@ -151,7 +155,7 @@ class: inverse, center, middle
 .notes[
 <div class="ta">Take-aways</div>
 
-- NPD in <b style="color:#cc0065">seven</b> Landtage at once in 1968–70
+- NPD in <b style="color:#cc0065">seven Landtage at once</b> in 1968–70
 - DVU, REP and Schill in the 1990s and 2000s, mostly for a single term
 - The AfD since 2014: <b style="color:#cc0065">all 16</b> states
 ]
@@ -183,8 +187,9 @@ class: inverse, center, middle
 .notes[
 <div class="ta">Take-aways</div>
 
-- Against the previous state election: <b style="color:#cc0065">+23</b>, +21.5 and +7 points
+- Against the previous state election: <b style="color:#cc0065">+23</b>, +21.5 and +7 points in the September elections
 - Against the February 2025 federal result in the same state: <b style="color:#cc0065">+6.7</b>, +3.2 and +1.1
+- In the March elections the AfD even <b style="color:#cc0065">underperformed</b> its federal result
 ]
 
 <div class="src">Data: <a href="https://www.wahlrecht.de/ergebnisse/">wahlrecht.de</a>, <a href="https://www.bundeswahlleiterin.de/bundestagswahlen/2025/ergebnisse.html">Bundeswahlleiterin</a>, own compilation. Inspired by: <a href="https://bsky.app/profile/nilssteiner.bsky.social/post/3mvy5n3azt22p">Nils Steiner</a>.</div>
@@ -195,71 +200,14 @@ class: inverse, center, middle
 
 <span class="section-no">3</span>
 
-# Turnout is back.
-<html><div style='float:left'></div><hr color='#EB811B' size=1px style="width:1000px; margin:auto;"/></html>
-
-
----
-# Turnout is back. The East now votes more than the West.
-
-.fig[<img src="pics/analysis/03_turnout.png">]
-
-.notes[
-<div class="ta">Take-aways</div>
-
-- East German turnout fell to the low 50s in the 2000s and 2010s
-- 2026: <b style="color:#cc0065">78%</b> in MV and Saxony-Anhalt, 74% in Berlin
-- Saxony-Anhalt: <b style="color:#cc0065">+17.5</b> points, the largest increase at any state election since 1990
-]
-
-<div class="src">Data: <a href="https://www.wahlrecht.de/ergebnisse/">wahlrecht.de</a>, own compilation. Inspired by: <a href="https://juliuskoelzer.de/saxony-anhalt-2026-en/">Julius Kölzer</a>.</div>
-
-
----
-# ... and the new voters went mostly one way
-
-.fig[<img src="pics/analysis/03_nonvoter_flows.png">]
-
-.notes[
-<div class="ta">Take-aways</div>
-
-- S-A: AfD <b style="color:#cc0065">+170k</b> from former non-voters, all other parties together +96k
-- Berlin is the exception: the Linke mobilised more (+75k) than the AfD (+61k)
-- Centre and left mostly <b style="color:#cc0065">trade votes among themselves</b>; the AfD also takes from the CDU (−83k, −60k, −32k)
-]
-
-<div class="src">Data: <a href="https://www.kas.de/de/monitor-wahl-und-sozialforschung">ARD / infratest dimap vote-flow analysis, via KAS Wahlanalysen</a>, own compilation. Inspired by: <a href="https://bsky.app/profile/juliusk.bsky.social/post/3mvz7smwnb22e">Julius Kölzer</a>.</div>
-
-
----
-# ... and they are probably not going away any time soon
-
-.fig[<img src="pics/analysis/03_turnout_persistence.png">]
-
-.notes[
-<div class="ta">Take-aways</div>
-
-- 226 state-election pairs since 1946: only about <b style="color:#cc0065">one sixth</b> of a turnout surge is given back next time
-- Every East German surge since 2014 was followed by a <b style="color:#cc0065">further rise</b>
-- Voting is habit-forming: <b style="color:#cc0065">+5 to +15</b> points next time, strongest for first-time voters
-]
-
-<div class="src">Data: <a href="https://www.wahlrecht.de/ergebnisse/">wahlrecht.de</a>, own compilation. Literature: <a href="https://onlinelibrary.wiley.com/doi/10.1111/ajps.12210">Coppock & Green 2016</a>, <a href="https://www.aeaweb.org/articles?id=10.1257/app.20140533">Fujiwara, Meng & Vogl 2016</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-658-42694-1_4">Schäfer 2023</a>.</div>
-
-
----
-class: inverse, center, middle
-
-<span class="section-no">4</span>
-
-# Age and geography are defining cleavages.
+# Age, education, and geography are defining cleavages.
 <html><div style='float:left'></div><hr color='#EB811B' size=1px style="width:1000px; margin:auto;"/></html>
 
 
 ---
 # Support for the centre is dying out
 
-.fig[<img src="pics/analysis/04_age.png">]
+.fig[<img src="pics/analysis/03_age.png">]
 
 .notes[
 <div class="ta">Take-aways</div>
@@ -269,13 +217,13 @@ class: inverse, center, middle
 - Berlin under 35: <b style="color:#cc0065">43–49%</b> Die Linke
 ]
 
-<div class="src">Data: <a href="https://www.kas.de/de/monitor-wahl-und-sozialforschung">infratest dimap exit polls, via KAS Wahlanalysen</a>, own compilation. Inspired by: <a href="https://www.zeit.de/politik/deutschland/2026-09/wahlverhalten-junge-menschen-ostdeutschland-volksparteien-cdu-spd">Thorsten Faas</a>, <a href="https://bsky.app/profile/nilssteiner.bsky.social">Nils Steiner</a>.</div>
+<div class="src">Data: <a href="https://www.kas.de/de/monitor-wahl-und-sozialforschung">infratest dimap exit polls, via KAS Wahlanalysen</a>, own compilation. Inspired by: <a href="https://www.zeit.de/politik/deutschland/2026-09/wahlverhalten-junge-menschen-ostdeutschland-volksparteien-cdu-spd">Thorsten Faas</a>.</div>
 
 
 ---
 # The AfD's steep education gradient
 
-.fig[<img src="pics/analysis/04_education.png">]
+.fig[<img src="pics/analysis/03_education.png">]
 
 .notes[
 <div class="ta">Take-aways</div>
@@ -290,7 +238,7 @@ class: inverse, center, middle
 ---
 # Village vs. city: the AfD vote falls with municipality size
 
-.fig[<img src="pics/analysis/04_urban_rural_afd_by_size.png">]
+.fig[<img src="pics/analysis/03_urban_rural_afd_by_size.png">]
 
 .notes[
 <div class="ta">Take-aways</div>
@@ -306,7 +254,7 @@ class: inverse, center, middle
 ---
 # Berlin: “The Ring is the new Wall”
 
-.fig.sq[<img src="pics/analysis/04_berlin_map.png">]
+.fig.sq[<img src="pics/analysis/03_berlin_map.png">]
 
 .notes[
 <div class="ta">Take-aways</div>
@@ -321,7 +269,7 @@ class: inverse, center, middle
 ---
 # Berlin: “The Ring is the new Wall”
 
-.fig[<img src="pics/analysis/04_berlin_ring.png">]
+.fig[<img src="pics/analysis/03_berlin_ring.png">]
 
 .notes[
 <div class="ta">Take-aways</div>
@@ -333,6 +281,63 @@ class: inverse, center, middle
 
 <div class="src">Data: <a href="https://www.wahlen-berlin.de/wahlen/BE2026/AFSPRAES/agh/downloads.html">Landeswahlleiterin Berlin / AfS Berlin-Brandenburg</a>, <a href="https://gdi.berlin.de/">gdi.berlin.de</a>, OpenStreetMap, own compilation. Inspired by: <a href="https://interaktiv.tagesspiegel.de/lab/der-berliner-mamdani-effekt-jung-migrantisch-zentrumsnah-wo-die-linke-stark-geworden-ist/">Tagesspiegel / Julius Kölzer</a>.</div>
 
+
+
+---
+class: inverse, center, middle
+
+<span class="section-no">4</span>
+
+# Turnout is back.
+<html><div style='float:left'></div><hr color='#EB811B' size=1px style="width:1000px; margin:auto;"/></html>
+
+
+---
+# Turnout is back. The East now votes more than the West.
+
+.fig[<img src="pics/analysis/04_turnout.png">]
+
+.notes[
+<div class="ta">Take-aways</div>
+
+- East German turnout fell to the low 50s in the 2000s and 2010s
+- 2026: <b style="color:#cc0065">78%</b> in MV and Saxony-Anhalt, 74% in Berlin
+- Saxony-Anhalt: <b style="color:#cc0065">+17.5</b> points, the largest increase at any state election since 1990
+]
+
+<div class="src">Data: <a href="https://www.wahlrecht.de/ergebnisse/">wahlrecht.de</a>, own compilation. Inspired by: <a href="https://juliuskoelzer.de/saxony-anhalt-2026-en/">Julius Kölzer</a>.</div>
+
+
+---
+# ... and the new voters went mostly one way
+
+.fig[<img src="pics/analysis/04_nonvoter_flows.png">]
+
+.notes[
+<div class="ta">Take-aways</div>
+
+- S-A: AfD <b style="color:#cc0065">+170k</b> from former non-voters, all other parties together +96k
+- Berlin is the exception: the Linke mobilised more (+75k) than the AfD (+61k)
+- Centre and left mostly <b style="color:#cc0065">trade votes among themselves</b>; the AfD also takes from the CDU (−83k, −60k, −32k)
+]
+
+<div class="src">Data: <a href="https://www.kas.de/de/monitor-wahl-und-sozialforschung">ARD / infratest dimap vote-flow analysis, via KAS Wahlanalysen</a>, own compilation. Inspired by: <a href="https://bsky.app/profile/juliusk.bsky.social/post/3mvz7smwnb22e">Julius Kölzer</a>.</div>
+
+
+---
+# ... and they are probably not going away any time soon
+
+.fig[<img src="pics/analysis/04_turnout_persistence.png">]
+
+.notes[
+<div class="ta">Take-aways</div>
+
+- 226 state-election pairs since 1946: only about <b style="color:#cc0065">one sixth</b> of a turnout surge is given back next time
+- Every East German surge since 2014 was followed by a <b style="color:#cc0065">further rise</b>
+- Voting is habit-forming: <b style="color:#cc0065">+5 to +15</b> points next time, strongest for first-time voters
+]
+
+<div class="src">Data: <a href="https://www.wahlrecht.de/ergebnisse/">wahlrecht.de</a>, own compilation. Literature: <a href="https://onlinelibrary.wiley.com/doi/10.1111/ajps.12210">Coppock & Green 2016</a>, <a href="https://www.aeaweb.org/articles?id=10.1257/app.20140533">Fujiwara, Meng & Vogl 2016</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-658-42694-1_4">Schäfer 2023</a>.</div>
 
 
 ---
