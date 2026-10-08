@@ -10,7 +10,7 @@ Germany's changing party landscape", 8 October 2026.
   zweitstimme forecasts, KAS exit-poll extracts, the 1946-2016 election-date file).
 - `data/output/` — the scraped state-election dataset (`state_elections_long.csv`) and all tables.
 - `data/sources/` — research notes with all sources and literature, far-right cross-check table.
-- `figures/` — all figures, named by finding (`01_*` to `05_*`).
+- `figures/` — all figures, named by finding (`01_*` to `06_*`).
 - `slides/` — the xaringan deck `state-elections-2026.Rmd` (+ rendered HTML); `slides/template-medem25/` is the
   older deck used as scaffold. The deck uses its own copies of the figures in `slides/pics/analysis/`.
 
@@ -30,6 +30,7 @@ cd code && for f in 0*.R; do LANG=en_US.UTF-8 Rscript "$f"; done
 | `03c_cleavages_berlin.R` | 3. Age and geography | Berlin 2026 by distance to the centre, inside/outside the S-Bahn-Ring, maps |
 | `04_turnout.R` | 4. Turnout is back | turnout 1946-2026, net gains from non-voters (infratest dimap), turnout persistence after surges |
 | `05_bonus_forecasts.R` | bonus | zweitstimme.org frozen forecasts vs. results |
+| `06_bonus_poll_of_polls.R` | bonus | federal poll of polls since January 2025 from the zweitstimme.org polling API (api.zweitstimme.org/v2), with the federal and state elections marked |
 
 Rendering the deck from the command line needs RStudio's pandoc:
 
@@ -39,12 +40,13 @@ cd slides && RSTUDIO_PANDOC=/Applications/RStudio.app/Contents/Resources/app/qua
 
 ## Data sources
 
-- wahlrecht.de (`/ergebnisse/<state>.htm`): all state elections since 1946, all parties, seats, turnout.
+- wahlrecht.de (`/ergebnisse/<state>.htm`): all state elections since 1946, all parties, seats, turnout. Three 2026 turnout
+  figures are overridden with the official final results in `00_data_state_elections.R` (RP 68.4 instead of 63.5; ST 77.8; MV 78.0).
 - GERDA, german-elections.com (CC BY 4.0): municipality- and constituency-level results 1946-2026; R package `gerda`.
 - Landeswahlleitung MV (wahlen.mvnet.de): municipality CSV for the 2026 election (not yet in GERDA).
 - Landeswahlleiterin Berlin / AfS Berlin-Brandenburg (CC BY 3.0 DE): precinct results 2026, 2023 recomputed on
   2026 precincts, structural data; geometries from gdi.berlin.de; S-Bahn-Ring from OpenStreetMap (ODbL).
 - KAS Monitor Wahl- und Sozialforschung: infratest dimap and FGW exit polls and vote flows (hand-coded / parsed).
-- zweitstimme.org API archive: frozen state forecasts.
+- zweitstimme.org API archive: frozen state forecasts; zweitstimme.org polling API (api.zweitstimme.org/v2, polls from wahlrecht.de and dawum.de).
 - StatePol (statepol.github.io/Database) and the Bundeswahlleiterin's "Ergebnisse früherer Landtagswahlen"
   PDF were checked but are not used in the scripts.

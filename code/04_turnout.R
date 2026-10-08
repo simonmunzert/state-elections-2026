@@ -68,19 +68,29 @@ fit_lvl <- lm(d_next ~ d_now + turnout, data = turn)
 print(summary(fit)$coefficients); print(summary(fit_lvl)$coefficients)
 cat("Share of post-1990 elections with turnout gain >= 5 pts:", mean(turn$d_now[turn$year >= 1990] >= 5, na.rm = TRUE), "\n")
 
-p13 <- ggplot(turn |> filter(!is.na(d_now), !is.na(d_next)), aes(d_now, d_next)) +
+pers <- turn |> filter(!is.na(d_now), !is.na(d_next)) |>
+  mutate(grp = case_when(region == "East" & year >= 2014 ~ "East, 2014 and later (AfD era)",
+                         year >= 1990 ~ "1990 and later", TRUE ~ "before 1990"),
+         grp = factor(grp, levels = c("before 1990", "1990 and later", "East, 2014 and later (AfD era)")),
+         lab = paste0(name_en, " ", year, " \u2192 ", year_next))
+grp_cols <- c("before 1990" = "#bbbbbb", "1990 and later" = "#000000", "East, 2014 and later (AfD era)" = accent)
+labs_df <- pers |> filter(grp == "East, 2014 and later (AfD era)" | d_now >= 8 | d_now <= -12) |>
+  mutate(lab_col = if_else(grp == "East, 2014 and later (AfD era)", accent, "#333333"),
+         lab_face = if_else(grp == "East, 2014 and later (AfD era)", "bold", "plain"))
+p13 <- ggplot(pers, aes(d_now, d_next)) +
   geom_hline(yintercept = 0, colour = "#999999") + geom_vline(xintercept = 0, colour = "#999999") +
-  geom_point(aes(colour = year >= 1990), size = 2.5, alpha = .7) +
-  geom_smooth(method = "lm", formula = y ~ x, se = TRUE, colour = accent, fill = accent, alpha = .15, linewidth = 1.2) +
-  geom_text_repel(data = turn |> filter(d_now >= 8 | d_now <= -12),
-                  aes(label = paste0(name_en, " ", year, " → ", year_next)), family = "Fira Sans", size = 3.3, colour = "#333333", max.overlaps = 20) +
-  scale_colour_manual(values = c(`FALSE` = "#bbbbbb", `TRUE` = "#000000"), labels = c("before 1990", "1990 and later")) +
+  geom_smooth(method = "lm", formula = y ~ x, se = TRUE, colour = "#555555", fill = "#555555", alpha = .12, linewidth = 1) +
+  geom_point(aes(colour = grp, size = grp), alpha = .8) +
+  geom_text_repel(data = labs_df, aes(label = lab, colour = I(lab_col), fontface = lab_face), family = "Fira Sans", size = 3.3,
+                  max.overlaps = 40, min.segment.length = 0, segment.colour = "#aaaaaa", box.padding = .35, seed = 1) +
+  scale_size_manual(values = c("before 1990" = 2.3, "1990 and later" = 2.3, "East, 2014 and later (AfD era)" = 3.3), guide = "none") +
+  scale_colour_manual(values = grp_cols) +
   scale_x_continuous(labels = \(x) sprintf("%+d", x)) + scale_y_continuous(labels = \(x) sprintf("%+d", x)) +
   labs(title = "Turnout surges partly revert, but mostly stick",
        subtitle = sprintf("Turnout change at the next state election vs. change at this one (points), %d election pairs since 1946.\nRegression slope %.2f: on average, about one sixth of a surge is given back at the next election.",
-                          sum(!is.na(turn$d_now) & !is.na(turn$d_next)), coef(fit)[2]),
+                          nrow(pers), coef(fit)[2]),
        x = "turnout change at this election", y = "turnout change at the next election") +
-  theme_sm()
+  theme_sm() + guides(colour = guide_legend(override.aes = list(size = 4, alpha = 1)))
 ggsave("../figures/04_turnout_persistence.png", p13, width = 12, height = 7, dpi = 200, device = agg_png, bg = "white")
 
 # ---- 2. what happened after the biggest surges? ------------------------------

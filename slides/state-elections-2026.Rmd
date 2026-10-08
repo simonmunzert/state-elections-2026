@@ -82,7 +82,7 @@ ul li::before {
 </style>
 
 
-# 2026: five state elections, five different outcomes
+# 2026: five state elections, four different winners
 
 .figwide[<img src="pics/analysis/01_results_2026.png">]
 
@@ -164,6 +164,8 @@ class: inverse, center, middle
 
 
 ---
+exclude: true
+
 # ... but the AfD is a different animal
 
 .fig[<img src="pics/analysis/02_far_right_strength.png">]
@@ -180,6 +182,8 @@ class: inverse, center, middle
 
 
 ---
+exclude: true
+
 # The recent AfD surge is smaller than it looks
 
 .fig[<img src="pics/analysis/02_afd_vs_btw25.png">]
@@ -252,6 +256,8 @@ class: inverse, center, middle
 
 
 ---
+exclude: true
+
 # Berlin: “The Ring is the new Wall”
 
 .fig.sq[<img src="pics/analysis/03_berlin_map.png">]
@@ -267,6 +273,8 @@ class: inverse, center, middle
 <div class="src">Data: <a href="https://www.wahlen-berlin.de/wahlen/BE2026/AFSPRAES/agh/downloads.html">Landeswahlleiterin Berlin / AfS Berlin-Brandenburg</a>, <a href="https://gdi.berlin.de/">gdi.berlin.de</a>, OpenStreetMap, own compilation. Inspired by: <a href="https://interaktiv.tagesspiegel.de/lab/der-berliner-mamdani-effekt-jung-migrantisch-zentrumsnah-wo-die-linke-stark-geworden-ist/">Tagesspiegel / Julius Kölzer</a>.</div>
 
 ---
+exclude: true
+
 # Berlin: “The Ring is the new Wall”
 
 .fig[<img src="pics/analysis/03_berlin_ring.png">]
@@ -309,6 +317,8 @@ class: inverse, center, middle
 
 
 ---
+exclude: true
+
 # ... and the new voters went mostly one way
 
 .fig[<img src="pics/analysis/04_nonvoter_flows.png">]

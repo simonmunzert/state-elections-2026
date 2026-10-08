@@ -14,7 +14,7 @@ are marked with (slide).
 | Greens | 8.9 (+3.0), 8 | 14.3 (−4.1), 26 | 5.7 (−0.6), 5 |
 | Linke | 8.6 (−2.4), 8 | 25.7 (+13.5), 47 | 6.5 (−3.4), 5 |
 | BSW | 5.3, 5 | 4.7 | 4.8 |
-| Turnout | 77.8 (+17.5) | 74.2 (+11.3) | 78.1 (+7.3) |
+| Turnout | 77.8 (+17.5) | 74.2 (+11.3) | 78.0 (+7.2) final (78.1 preliminary) |
 
 Berlin final result to be certified 12 Oct 2026. Sources: wahlrecht.de news pages, Landeswahlleiter,
 KAS analyses, Wikipedia.
@@ -182,3 +182,9 @@ NYT 7 Sept (Tankersley) and 20 Sept; Washington Post 19 and 22 Sept; Bloomberg 2
 6 and 18 Sept (Nöstlinger, Angelos); Reuters 20 Sept (Mackenzie); Le Monde 20 Sept; Le Grand Continent 20 Sept (Hublet, Mennerat);
 Brookings 25 Sept (Stelzenmüller, Silbiger); Foreign Policy 30 Sept (Hockenos). Spiegel data piece 21 Sept by Wilkin, Stotz,
 Pauly, Dambeck. No chart-driven piece found at Economist/FT/NYT/WaPo; the data-heavy work sits with NZZ Visuals, Tagesspiegel, Spiegel.
+
+## Added 8 Oct 2026: turnout corrections
+wahlrecht.de's results table shows 63.5% turnout for Rhineland-Palatinate 2026, but its own election report
+(wahlrecht.de/news/2026/landtagswahl-rheinland-pfalz-2026.html) says 68.5% and the Landeswahlleiter
+(wahlen.rlp.de) 68.4% final. The dataset now uses the official final values: RP 68.4, Saxony-Anhalt 77.8,
+MV 78.0 (overrides in 00_data_state_elections.R). All other 2024-2026 turnout values match the official results.

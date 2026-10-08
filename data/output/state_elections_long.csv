@@ -1995,18 +1995,18 @@ mv,Mecklenburg-Vorpommern,1,8,2021,2021-09-26,FALSE,pir,Other (named),FALSE,PIRA
 mv,Mecklenburg-Vorpommern,1,8,2021,2021-09-26,FALSE,rep,Far right (pre-AfD),TRUE,REP,NA,NA,70.8,79
 mv,Mecklenburg-Vorpommern,1,8,2021,2021-09-26,FALSE,dvu,Far right (pre-AfD),TRUE,DVU,NA,NA,70.8,79
 mv,Mecklenburg-Vorpommern,1,8,2021,2021-09-26,FALSE,bsw,BSW,FALSE,BSW,NA,NA,70.8,79
-mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,afd,AfD,TRUE,AfD,38.2,32,78.1,71
-mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,spd,SPD,FALSE,SPD,35.5,29,78.1,71
-mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,lin,Left,FALSE,Die Linke.¹,6.5,5,78.1,71
-mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,gru,Greens,FALSE,GRÜNE,5.7,5,78.1,71
-mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,cdu,CDU/CSU,FALSE,CDU,4.9,NA,78.1,71
-mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,bsw,BSW,FALSE,BSW,4.8,NA,78.1,71
-mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,oth,Other,FALSE,Sonstige,3.1,NA,78.1,71
-mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,fdp,FDP,FALSE,FDP²,1,NA,78.1,71
-mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,pir,Other (named),FALSE,PIRATEN,0.2,NA,78.1,71
-mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,npd,Far right (pre-AfD),TRUE,NPD,NA,NA,78.1,71
-mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,rep,Far right (pre-AfD),TRUE,REP,NA,NA,78.1,71
-mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,dvu,Far right (pre-AfD),TRUE,DVU,NA,NA,78.1,71
+mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,afd,AfD,TRUE,AfD,38.2,32,78,71
+mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,spd,SPD,FALSE,SPD,35.5,29,78,71
+mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,lin,Left,FALSE,Die Linke.¹,6.5,5,78,71
+mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,gru,Greens,FALSE,GRÜNE,5.7,5,78,71
+mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,cdu,CDU/CSU,FALSE,CDU,4.9,NA,78,71
+mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,bsw,BSW,FALSE,BSW,4.8,NA,78,71
+mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,oth,Other,FALSE,Sonstige,3.1,NA,78,71
+mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,fdp,FDP,FALSE,FDP²,1,NA,78,71
+mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,pir,Other (named),FALSE,PIRATEN,0.2,NA,78,71
+mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,npd,Far right (pre-AfD),TRUE,NPD,NA,NA,78,71
+mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,rep,Far right (pre-AfD),TRUE,REP,NA,NA,78,71
+mv,Mecklenburg-Vorpommern,1,9,2026,2026-09-20,TRUE,dvu,Far right (pre-AfD),TRUE,DVU,NA,NA,78,71
 ni,Lower Saxony,0,1,1947,1947-02-20,FALSE,spd,SPD,FALSE,SPD,43.4,65,65.1,149
 ni,Lower Saxony,0,1,1947,1947-02-20,FALSE,cdu,CDU/CSU,FALSE,CDU¹,19.9,30,65.1,149
 ni,Lower Saxony,0,1,1947,1947-02-20,FALSE,dp,Other (named),FALSE,"NLP/DP1, 4",17.9,27,65.1,149
@@ -2815,22 +2815,22 @@ rp,Rhineland-Palatinate,0,18,2021,2021-03-14,FALSE,rep,Far right (pre-AfD),TRUE,
 rp,Rhineland-Palatinate,0,18,2021,2021-03-14,FALSE,npd,Far right (pre-AfD),TRUE,DRP/NPD³,NA,NA,64.3,101
 rp,Rhineland-Palatinate,0,18,2021,2021-03-14,FALSE,kpd,KPD/DKP,FALSE,KPD/DKP4,NA,NA,64.3,101
 rp,Rhineland-Palatinate,0,18,2021,2021-03-14,FALSE,bsw,BSW,FALSE,BSW,NA,NA,64.3,101
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,cdu,CDU/CSU,FALSE,CDU,31,39,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,spd,SPD,FALSE,SPD,25.9,32,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,afd,AfD,TRUE,AfD,19.5,24,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,gru,Greens,FALSE,GRÜNE,7.9,10,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,lin,Left,FALSE,DIE LINKE²,4.4,NA,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,fw,Other (named),FALSE,FREIE WÄHLER,4.2,NA,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,fdp,FDP,FALSE,FDP¹,2.1,NA,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,bsw,BSW,FALSE,BSW,1.9,NA,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,tierschutzpartei,Other (named),FALSE,Tierschutzpartei,1.6,NA,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,volt,Other (named),FALSE,Volt,1.1,NA,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,oth,Other,FALSE,Sonstige,0.5,NA,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,rep,Far right (pre-AfD),TRUE,REP,NA,NA,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,npd,Far right (pre-AfD),TRUE,DRP/NPD³,NA,NA,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,kpd,KPD/DKP,FALSE,KPD/DKP4,NA,NA,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,pir,Other (named),FALSE,PIRATEN,NA,NA,63.5,105
-rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,diepartei,Other (named),FALSE,DIE PARTEI,NA,NA,63.5,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,cdu,CDU/CSU,FALSE,CDU,31,39,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,spd,SPD,FALSE,SPD,25.9,32,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,afd,AfD,TRUE,AfD,19.5,24,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,gru,Greens,FALSE,GRÜNE,7.9,10,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,lin,Left,FALSE,DIE LINKE²,4.4,NA,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,fw,Other (named),FALSE,FREIE WÄHLER,4.2,NA,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,fdp,FDP,FALSE,FDP¹,2.1,NA,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,bsw,BSW,FALSE,BSW,1.9,NA,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,tierschutzpartei,Other (named),FALSE,Tierschutzpartei,1.6,NA,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,volt,Other (named),FALSE,Volt,1.1,NA,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,oth,Other,FALSE,Sonstige,0.5,NA,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,rep,Far right (pre-AfD),TRUE,REP,NA,NA,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,npd,Far right (pre-AfD),TRUE,DRP/NPD³,NA,NA,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,kpd,KPD/DKP,FALSE,KPD/DKP4,NA,NA,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,pir,Other (named),FALSE,PIRATEN,NA,NA,68.4,105
+rp,Rhineland-Palatinate,0,19,2026,2026-03-22,TRUE,diepartei,Other (named),FALSE,DIE PARTEI,NA,NA,68.4,105
 sh,Schleswig-Holstein,0,1,1947,1947-02-20,FALSE,spd,SPD,FALSE,SPD,43.8,43,69.8,70
 sh,Schleswig-Holstein,0,1,1947,1947-02-20,FALSE,cdu,CDU/CSU,FALSE,CDU,34.1,21,69.8,70
 sh,Schleswig-Holstein,0,1,1947,1947-02-20,FALSE,ssw,Other (named),FALSE,SSV/SSW4,9.3,6,69.8,70
@@ -3635,20 +3635,20 @@ st,Saxony-Anhalt,1,8,2021,2021-06-06,FALSE,bsw,BSW,FALSE,BSW,NA,NA,60.3,97
 st,Saxony-Anhalt,1,8,2021,2021-06-06,FALSE,rep,Far right (pre-AfD),TRUE,REP,NA,NA,60.3,97
 st,Saxony-Anhalt,1,8,2021,2021-06-06,FALSE,dsu,Far right (pre-AfD),TRUE,DSU,NA,NA,60.3,97
 st,Saxony-Anhalt,1,8,2021,2021-06-06,FALSE,schill,Far right (pre-AfD),TRUE,SCHILL,NA,NA,60.3,97
-st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,afd,AfD,TRUE,AfD,43.8,39,77.7,83
-st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,cdu,CDU/CSU,FALSE,CDU,17.2,15,77.7,83
-st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,spd,SPD,FALSE,SPD,9.3,8,77.7,83
-st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,gru,Greens,FALSE,B’90/GRÜNE²,8.9,8,77.7,83
-st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,lin,Left,FALSE,DIE LINKE¹,8.6,8,77.7,83
-st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,bsw,BSW,FALSE,BSW,5.3,5,77.7,83
-st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,oth,Other,FALSE,Sonstige,3.2,NA,77.7,83
-st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,fdp,FDP,FALSE,FDP,2.6,NA,77.7,83
-st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,fw,Other (named),FALSE,FREIE WÄHLER,1.2,NA,77.7,83
-st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,dvu,Far right (pre-AfD),TRUE,DVU,NA,NA,77.7,83
-st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,npd,Far right (pre-AfD),TRUE,NPD,NA,NA,77.7,83
-st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,rep,Far right (pre-AfD),TRUE,REP,NA,NA,77.7,83
-st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,dsu,Far right (pre-AfD),TRUE,DSU,NA,NA,77.7,83
-st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,schill,Far right (pre-AfD),TRUE,SCHILL,NA,NA,77.7,83
+st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,afd,AfD,TRUE,AfD,43.8,39,77.8,83
+st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,cdu,CDU/CSU,FALSE,CDU,17.2,15,77.8,83
+st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,spd,SPD,FALSE,SPD,9.3,8,77.8,83
+st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,gru,Greens,FALSE,B’90/GRÜNE²,8.9,8,77.8,83
+st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,lin,Left,FALSE,DIE LINKE¹,8.6,8,77.8,83
+st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,bsw,BSW,FALSE,BSW,5.3,5,77.8,83
+st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,oth,Other,FALSE,Sonstige,3.2,NA,77.8,83
+st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,fdp,FDP,FALSE,FDP,2.6,NA,77.8,83
+st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,fw,Other (named),FALSE,FREIE WÄHLER,1.2,NA,77.8,83
+st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,dvu,Far right (pre-AfD),TRUE,DVU,NA,NA,77.8,83
+st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,npd,Far right (pre-AfD),TRUE,NPD,NA,NA,77.8,83
+st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,rep,Far right (pre-AfD),TRUE,REP,NA,NA,77.8,83
+st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,dsu,Far right (pre-AfD),TRUE,DSU,NA,NA,77.8,83
+st,Saxony-Anhalt,1,9,2026,2026-09-06,TRUE,schill,Far right (pre-AfD),TRUE,SCHILL,NA,NA,77.8,83
 th,Thuringia,1,1,1990,1990-10-14,FALSE,cdu,CDU/CSU,FALSE,CDU,45.4,44,71.7,89
 th,Thuringia,1,1,1990,1990-10-14,FALSE,spd,SPD,FALSE,SPD,22.8,21,71.7,89
 th,Thuringia,1,1,1990,1990-10-14,FALSE,lin,Left,FALSE,DIE LINKE,9.7,9,71.7,89

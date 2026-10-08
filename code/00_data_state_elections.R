@@ -191,6 +191,14 @@ res <- res |>
   select(land, name_en, east, elec_no, year, date, prelim, party, family, far_right,
          label_raw, pct, seats, turnout, total_seats)
 
+# manual corrections of turnout where wahlrecht.de deviates from the official final result
+# (checked against the Landeswahlleitungen, 8 Oct 2026)
+res <- res |>
+  mutate(turnout = case_when(land == "rp" & year == 2026 ~ 68.4,   # wahlen.rlp.de: 68,4 (wahlrecht.de shows 63,5)
+                             land == "st" & year == 2026 ~ 77.8,   # final result (wahlrecht.de preliminary 77,7)
+                             land == "mv" & year == 2026 ~ 78.0,   # final result, wahlen.mvnet.de (wahlrecht.de preliminary 78,1)
+                             TRUE ~ turnout))
+
 # "other" share: 100 minus named parties (wahlrecht "Sonstige" is sometimes empty)
 res <- res |>
   group_by(land, elec_no) |>
